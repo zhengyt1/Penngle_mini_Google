@@ -1,0 +1,8 @@
+*.class
+.vscode
+.DS_Store
+.classpath
+.project
+.settings/
+/.metadata/
+__worker

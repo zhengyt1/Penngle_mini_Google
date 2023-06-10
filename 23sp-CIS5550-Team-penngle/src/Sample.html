@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Penngle Search Engine</title>
+    <style>
+      
+      .pagination-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .pagination {
+        display: flex;
+      }
+
+      .pagination button,
+      .next-page-btn {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        color: #333;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        margin-right: 0.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      .pagination button.active,
+      .next-page-btn:hover {
+        background-color: #8707ff;
+        color: #fff;
+        border: 1px solid #8707ff;
+      }
+
+      .next-page-btn {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        color: #333;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #8707ff 0%, #9BDBE7 100%);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        font-weight: bold;
+      }
+
+      .container {
+        flex: 1;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 50px;
+      }
+
+      form {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+
+      input[type="text"] {
+        padding: 10px 25px;
+        font-size: 18px;
+        border-radius: 20px 0 0 20px;
+        border: 2px solid #8707ff;
+        background-color: transparent;
+        color: #8707ff;
+        outline: none;
+        width: 400px;
+        max-width: 100%;
+      }
+
+      input[type="text"]:focus {
+        box-shadow: 0 0 5px rgba(135, 7, 255, 0.5);
+      }
+
+      button[type="submit"] {
+        padding: 10px 25px;
+        font-weight: 700;
+        background: #8707ff;
+        color: white;
+        border-radius: 0 20px 20px 0;
+        border: none;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      button[type="submit"]:hover {
+        background-color: #6a05cd;
+      }
+
+      #results {
+        margin-top: 40px;
+        padding: 20px;
+      }
+
+      #results ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #results li {
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+
+      #results a {
+        color: #1a0dab;
+        text-decoration: none;
+      }
+
+      #results a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Penngle</h1>
+    <div class="container">
+      <form onsubmit="return search(this)">
+        <input type="text" name="q" placeholder="Search..." required>
+        <button type="submit">Search</button>
+      </form>
+      <div id="results"></div>
+    </div>
+    <script src="Search.js"></script>
+  </body>
+</html>

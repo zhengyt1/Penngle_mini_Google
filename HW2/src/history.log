@@ -1,0 +1,2153 @@
+2023-02-03 00:50:07.616 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 00:50:11.236 Thread-1Incoming connection from /127.0.0.1:63936
+2023-02-03 00:50:11.236 Thread-1Ready to receive data
+2023-02-03 00:50:11.242 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 00:50:11.248 Thread-1Incoming connection from /127.0.0.1:63936
+2023-02-03 00:50:11.248 Thread-1Ready to receive data
+2023-02-03 00:50:12.277 Thread-1b < 0, close socket and open another
+2023-02-03 00:53:34.667 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 00:53:37.045 Thread-1Incoming connection from /127.0.0.1:64439
+2023-02-03 00:53:37.045 Thread-1Ready to receive data
+2023-02-03 00:53:37.051 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 00:53:37.057 Thread-1Incoming connection from /127.0.0.1:64439
+2023-02-03 00:53:37.057 Thread-1Ready to receive data
+2023-02-03 00:53:38.087 Thread-1b < 0, close socket and open another
+2023-02-03 13:29:13.229 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 13:29:15.934 Thread-1Incoming connection from /127.0.0.1:53399
+2023-02-03 13:29:15.935 Thread-1Ready to receive data
+2023-02-03 13:29:15.940 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 13:29:15.946 Thread-1Incoming connection from /127.0.0.1:53399
+2023-02-03 13:29:15.946 Thread-1Ready to receive data
+2023-02-03 14:48:26.847 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 14:48:38.590 Thread-1Incoming connection from /127.0.0.1:64685
+2023-02-03 14:48:38.590 Thread-1Ready to receive data
+2023-02-03 14:48:38.591 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:38.592 Thread-1going to create resquest and response
+2023-02-03 14:48:38.592 Thread-1Begin to send
+2023-02-03 14:48:38.597 Thread-1Incoming connection from /127.0.0.1:64685
+2023-02-03 14:48:38.598 Thread-1Ready to receive data
+2023-02-03 14:48:38.599 Thread-1b < 0, close socket and open another
+2023-02-03 14:48:38.600 Thread-2Incoming connection from /127.0.0.1:64686
+2023-02-03 14:48:38.600 Thread-2Ready to receive data
+2023-02-03 14:48:38.601 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:38.601 Thread-2going to create resquest and response
+2023-02-03 14:48:38.601 Thread-2ERROR: Error 404, file not found
+2023-02-03 14:48:38.603 Thread-2Incoming connection from /127.0.0.1:64686
+2023-02-03 14:48:38.603 Thread-2Ready to receive data
+2023-02-03 14:48:38.604 Thread-2b < 0, close socket and open another
+2023-02-03 14:48:38.604 Thread-3Incoming connection from /127.0.0.1:64687
+2023-02-03 14:48:38.605 Thread-3Ready to receive data
+2023-02-03 14:48:38.605 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:38.605 Thread-3going to create resquest and response
+2023-02-03 14:48:38.607 Thread-3Incoming connection from /127.0.0.1:64687
+2023-02-03 14:48:38.608 Thread-3Ready to receive data
+2023-02-03 14:48:38.608 Thread-3b < 0, close socket and open another
+2023-02-03 14:48:38.609 Thread-4Incoming connection from /127.0.0.1:64688
+2023-02-03 14:48:38.609 Thread-4Ready to receive data
+2023-02-03 14:48:38.618 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 17
+Host: localhost
+
+
+2023-02-03 14:48:38.618 Thread-4going to create resquest and response
+2023-02-03 14:48:38.619 Thread-4Incoming connection from /127.0.0.1:64688
+2023-02-03 14:48:38.619 Thread-4Ready to receive data
+2023-02-03 14:48:38.620 Thread-4b < 0, close socket and open another
+2023-02-03 14:48:38.621 Thread-5Incoming connection from /127.0.0.1:64689
+2023-02-03 14:48:38.621 Thread-5Ready to receive data
+2023-02-03 14:48:38.622 Thread-5Incoming: PUT /puthdr HTTP/1.1
+X-Foo: DbAIF69
+Host: localhost
+
+
+2023-02-03 14:48:38.622 Thread-5going to create resquest and response
+2023-02-03 14:48:38.622 Thread-5Incoming connection from /127.0.0.1:64689
+2023-02-03 14:48:38.622 Thread-5Ready to receive data
+2023-02-03 14:48:38.623 Thread-5b < 0, close socket and open another
+2023-02-03 14:48:38.623 Thread-6Incoming connection from /127.0.0.1:64690
+2023-02-03 14:48:38.623 Thread-6Ready to receive data
+2023-02-03 14:48:38.627 Thread-6Incoming: PUT /pathpar/PJNVE/123/YXVX1 HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:38.627 Thread-6going to create resquest and response
+2023-02-03 14:48:38.627 Thread-6ERROR: Error 405 (Method Not Allowed): PUT
+2023-02-03 14:48:38.627 Thread-6Incoming connection from /127.0.0.1:64690
+2023-02-03 14:48:38.627 Thread-6Ready to receive data
+2023-02-03 14:48:38.635 Thread-6b < 0, close socket and open another
+2023-02-03 14:48:53.056 Thread-7Incoming connection from /127.0.0.1:64726
+2023-02-03 14:48:53.056 Thread-7Ready to receive data
+2023-02-03 14:48:53.058 Thread-7Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:53.058 Thread-7going to create resquest and response
+2023-02-03 14:48:53.058 Thread-7Begin to send
+2023-02-03 14:48:53.058 Thread-7Incoming connection from /127.0.0.1:64726
+2023-02-03 14:48:53.058 Thread-7Ready to receive data
+2023-02-03 14:48:53.060 Thread-7b < 0, close socket and open another
+2023-02-03 14:48:53.061 Thread-8Incoming connection from /127.0.0.1:64727
+2023-02-03 14:48:53.061 Thread-8Ready to receive data
+2023-02-03 14:48:53.062 Thread-8Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:53.062 Thread-8going to create resquest and response
+2023-02-03 14:48:53.062 Thread-8ERROR: Error 404, file not found
+2023-02-03 14:48:53.062 Thread-8Incoming connection from /127.0.0.1:64727
+2023-02-03 14:48:53.062 Thread-8Ready to receive data
+2023-02-03 14:48:53.063 Thread-8b < 0, close socket and open another
+2023-02-03 14:48:53.064 Thread-9Incoming connection from /127.0.0.1:64728
+2023-02-03 14:48:53.064 Thread-9Ready to receive data
+2023-02-03 14:48:53.065 Thread-9Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:53.065 Thread-9going to create resquest and response
+2023-02-03 14:48:53.065 Thread-9Incoming connection from /127.0.0.1:64728
+2023-02-03 14:48:53.065 Thread-9Ready to receive data
+2023-02-03 14:48:53.066 Thread-9b < 0, close socket and open another
+2023-02-03 14:48:53.067 Thread-10Incoming connection from /127.0.0.1:64729
+2023-02-03 14:48:53.067 Thread-10Ready to receive data
+2023-02-03 14:48:53.076 Thread-10Incoming: POST /postbody HTTP/1.1
+Content-Length: 19
+Host: localhost
+
+
+2023-02-03 14:48:53.077 Thread-10going to create resquest and response
+2023-02-03 14:48:53.077 Thread-10Incoming connection from /127.0.0.1:64729
+2023-02-03 14:48:53.077 Thread-10Ready to receive data
+2023-02-03 14:48:53.078 Thread-10b < 0, close socket and open another
+2023-02-03 14:48:53.079 Thread-11Incoming connection from /127.0.0.1:64730
+2023-02-03 14:48:53.079 Thread-11Ready to receive data
+2023-02-03 14:48:53.080 Thread-11Incoming: PUT /puthdr HTTP/1.1
+X-Foo: GSdvUp1n4wtJ5
+Host: localhost
+
+
+2023-02-03 14:48:53.080 Thread-11going to create resquest and response
+2023-02-03 14:48:53.080 Thread-11Incoming connection from /127.0.0.1:64730
+2023-02-03 14:48:53.080 Thread-11Ready to receive data
+2023-02-03 14:48:53.081 Thread-11b < 0, close socket and open another
+2023-02-03 14:48:53.081 Thread-12Incoming connection from /127.0.0.1:64731
+2023-02-03 14:48:53.081 Thread-12Ready to receive data
+2023-02-03 14:48:53.085 Thread-12Incoming: PUT /pathpar/LYzOi/123/FU8TB HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:48:53.085 Thread-12going to create resquest and response
+2023-02-03 14:48:53.085 Thread-12ERROR: Error 405 (Method Not Allowed): PUT
+2023-02-03 14:48:53.085 Thread-12Incoming connection from /127.0.0.1:64731
+2023-02-03 14:48:53.085 Thread-12Ready to receive data
+2023-02-03 14:48:53.106 Thread-12b < 0, close socket and open another
+2023-02-03 14:49:00.824 Thread-13Incoming connection from /127.0.0.1:64750
+2023-02-03 14:49:00.824 Thread-13Ready to receive data
+2023-02-03 14:49:00.831 Thread-13Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:49:00.832 Thread-13going to create resquest and response
+2023-02-03 14:49:00.832 Thread-13Incoming connection from /127.0.0.1:64750
+2023-02-03 14:49:00.832 Thread-13Ready to receive data
+2023-02-03 14:49:01.865 Thread-13b < 0, close socket and open another
+2023-02-03 14:55:27.626 Thread-14Incoming connection from /127.0.0.1:49309
+2023-02-03 14:55:27.626 Thread-14Ready to receive data
+2023-02-03 14:55:27.634 Thread-14Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:55:27.634 Thread-14going to create resquest and response
+2023-02-03 14:55:27.635 Thread-14Incoming connection from /127.0.0.1:49309
+2023-02-03 14:55:27.635 Thread-14Ready to receive data
+2023-02-03 14:55:28.669 Thread-14b < 0, close socket and open another
+2023-02-03 14:57:32.591 Thread-15Incoming connection from /127.0.0.1:49610
+2023-02-03 14:57:32.592 Thread-15Ready to receive data
+2023-02-03 14:57:32.598 Thread-15Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:57:32.598 Thread-15going to create resquest and response
+2023-02-03 14:57:32.599 Thread-15Incoming connection from /127.0.0.1:49610
+2023-02-03 14:57:32.599 Thread-15Ready to receive data
+2023-02-03 14:57:33.631 Thread-15b < 0, close socket and open another
+2023-02-03 14:58:31.538 Thread-16Incoming connection from /127.0.0.1:49756
+2023-02-03 14:58:31.539 Thread-16Ready to receive data
+2023-02-03 14:58:31.546 Thread-16Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:58:31.546 Thread-16going to create resquest and response
+2023-02-03 14:58:31.547 Thread-16Incoming connection from /127.0.0.1:49756
+2023-02-03 14:58:31.547 Thread-16Ready to receive data
+2023-02-03 14:58:53.865 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 14:59:01.147 Thread-1Incoming connection from /127.0.0.1:49831
+2023-02-03 14:59:01.147 Thread-1Ready to receive data
+2023-02-03 14:59:01.154 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:59:01.154 Thread-1going to create resquest and response
+2023-02-03 14:59:01.160 Thread-1Incoming connection from /127.0.0.1:49831
+2023-02-03 14:59:01.160 Thread-1Ready to receive data
+2023-02-03 14:59:02.185 Thread-1b < 0, close socket and open another
+2023-02-03 14:59:46.462 Thread-2Incoming connection from /127.0.0.1:49940
+2023-02-03 14:59:46.462 Thread-2Ready to receive data
+2023-02-03 14:59:46.470 Thread-2Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 14:59:46.470 Thread-2going to create resquest and response
+2023-02-03 14:59:46.471 Thread-2Incoming connection from /127.0.0.1:49940
+2023-02-03 14:59:46.471 Thread-2Ready to receive data
+2023-02-03 14:59:47.506 Thread-2b < 0, close socket and open another
+2023-02-03 15:00:21.759 Thread-3Incoming connection from /127.0.0.1:50027
+2023-02-03 15:00:21.759 Thread-3Ready to receive data
+2023-02-03 15:00:21.767 Thread-3Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:00:21.768 Thread-3going to create resquest and response
+2023-02-03 15:00:21.768 Thread-3Incoming connection from /127.0.0.1:50027
+2023-02-03 15:00:21.768 Thread-3Ready to receive data
+2023-02-03 15:00:22.803 Thread-3b < 0, close socket and open another
+2023-02-03 15:01:09.951 Thread-4Incoming connection from /127.0.0.1:50145
+2023-02-03 15:01:09.951 Thread-4Ready to receive data
+2023-02-03 15:01:09.959 Thread-4Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:01:09.959 Thread-4going to create resquest and response
+2023-02-03 15:01:09.960 Thread-4Incoming connection from /127.0.0.1:50145
+2023-02-03 15:01:09.960 Thread-4Ready to receive data
+2023-02-03 15:01:10.997 Thread-4b < 0, close socket and open another
+2023-02-03 15:01:29.924 Thread-5Incoming connection from /127.0.0.1:50194
+2023-02-03 15:01:29.925 Thread-5Ready to receive data
+2023-02-03 15:01:29.932 Thread-5Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:01:29.933 Thread-5going to create resquest and response
+2023-02-03 15:01:29.933 Thread-5Incoming connection from /127.0.0.1:50194
+2023-02-03 15:01:29.933 Thread-5Ready to receive data
+2023-02-03 15:01:30.968 Thread-5b < 0, close socket and open another
+2023-02-03 15:02:42.550 Thread-6Incoming connection from /127.0.0.1:50372
+2023-02-03 15:02:42.550 Thread-6Ready to receive data
+2023-02-03 15:02:42.557 Thread-6Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:02:42.557 Thread-6going to create resquest and response
+2023-02-03 15:02:42.558 Thread-6Incoming connection from /127.0.0.1:50372
+2023-02-03 15:02:42.558 Thread-6Ready to receive data
+2023-02-03 15:02:43.595 Thread-6b < 0, close socket and open another
+2023-02-03 15:03:11.949 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 15:03:13.684 Thread-1Incoming connection from /127.0.0.1:50454
+2023-02-03 15:03:13.684 Thread-1Ready to receive data
+2023-02-03 15:03:13.690 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:03:13.691 Thread-1going to create resquest and response
+2023-02-03 15:03:13.697 Thread-1Incoming connection from /127.0.0.1:50454
+2023-02-03 15:03:13.697 Thread-1Ready to receive data
+2023-02-03 15:03:14.732 Thread-1b < 0, close socket and open another
+2023-02-03 15:06:43.992 Thread-2Incoming connection from /127.0.0.1:50963
+2023-02-03 15:06:43.992 Thread-2Ready to receive data
+2023-02-03 15:06:44.003 Thread-2Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:06:44.003 Thread-2going to create resquest and response
+2023-02-03 15:06:44.004 Thread-2Incoming connection from /127.0.0.1:50963
+2023-02-03 15:06:44.004 Thread-2Ready to receive data
+2023-02-03 15:06:45.041 Thread-2b < 0, close socket and open another
+2023-02-03 15:07:24.589 Thread-3Incoming connection from /127.0.0.1:51065
+2023-02-03 15:07:24.589 Thread-3Ready to receive data
+2023-02-03 15:07:24.597 Thread-3Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:07:24.597 Thread-3going to create resquest and response
+2023-02-03 15:07:24.597 Thread-3Incoming connection from /127.0.0.1:51065
+2023-02-03 15:07:24.597 Thread-3Ready to receive data
+2023-02-03 15:07:25.633 Thread-3b < 0, close socket and open another
+2023-02-03 15:08:46.396 Thread-4Incoming connection from /127.0.0.1:51267
+2023-02-03 15:08:46.396 Thread-4Ready to receive data
+2023-02-03 15:08:46.405 Thread-4Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:08:46.406 Thread-4going to create resquest and response
+2023-02-03 15:08:46.406 Thread-4Incoming connection from /127.0.0.1:51267
+2023-02-03 15:08:46.406 Thread-4Ready to receive data
+2023-02-03 15:08:47.440 Thread-4b < 0, close socket and open another
+2023-02-03 15:53:34.539 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 15:53:37.465 Thread-1Incoming connection from /127.0.0.1:58943
+2023-02-03 15:53:37.465 Thread-1Ready to receive data
+2023-02-03 15:53:37.471 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:53:37.471 Thread-1going to create resquest and response
+2023-02-03 15:53:37.477 Thread-1Incoming connection from /127.0.0.1:58943
+2023-02-03 15:53:37.477 Thread-1Ready to receive data
+2023-02-03 15:53:38.508 Thread-1b < 0, close socket and open another
+2023-02-03 15:54:17.292 Thread-2Incoming connection from /127.0.0.1:59045
+2023-02-03 15:54:17.292 Thread-2Ready to receive data
+2023-02-03 15:54:17.299 Thread-2Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:54:17.300 Thread-2going to create resquest and response
+2023-02-03 15:54:17.300 Thread-2Incoming connection from /127.0.0.1:59045
+2023-02-03 15:54:17.300 Thread-2Ready to receive data
+2023-02-03 15:54:18.333 Thread-2b < 0, close socket and open another
+2023-02-03 15:59:51.973 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 15:59:54.888 Thread-1Incoming connection from /127.0.0.1:59924
+2023-02-03 15:59:54.888 Thread-1Ready to receive data
+2023-02-03 15:59:54.895 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 15:59:54.895 Thread-1going to create resquest and response
+2023-02-03 15:59:54.901 Thread-1Incoming connection from /127.0.0.1:59924
+2023-02-03 15:59:54.901 Thread-1Ready to receive data
+2023-02-03 15:59:55.925 Thread-1b < 0, close socket and open another
+2023-02-03 16:09:17.018 Thread-2Incoming connection from /127.0.0.1:61324
+2023-02-03 16:09:17.018 Thread-2Ready to receive data
+2023-02-03 16:09:17.019 Thread-2Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:09:17.019 Thread-2going to create resquest and response
+2023-02-03 16:09:17.020 Thread-2Incoming connection from /127.0.0.1:61324
+2023-02-03 16:09:17.020 Thread-2Ready to receive data
+2023-02-03 16:09:17.021 Thread-2b < 0, close socket and open another
+2023-02-03 16:09:32.152 Thread-3Incoming connection from /127.0.0.1:61361
+2023-02-03 16:09:32.153 Thread-3Ready to receive data
+2023-02-03 16:09:32.154 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:09:32.154 Thread-3going to create resquest and response
+2023-02-03 16:09:32.155 Thread-3Incoming connection from /127.0.0.1:61361
+2023-02-03 16:09:32.155 Thread-3Ready to receive data
+2023-02-03 16:09:32.158 Thread-3b < 0, close socket and open another
+2023-02-03 16:09:59.467 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:10:01.680 Thread-1Incoming connection from /127.0.0.1:61432
+2023-02-03 16:10:01.680 Thread-1Ready to receive data
+2023-02-03 16:10:01.681 Thread-1Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:10:01.682 Thread-1going to create resquest and response
+2023-02-03 16:10:01.684 Thread-1Incoming connection from /127.0.0.1:61432
+2023-02-03 16:10:01.684 Thread-1Ready to receive data
+2023-02-03 16:10:02.717 Thread-1b < 0, close socket and open another
+2023-02-03 16:13:26.856 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:14:05.631 Thread-1Incoming connection from /127.0.0.1:62016
+2023-02-03 16:14:05.631 Thread-1Ready to receive data
+2023-02-03 16:14:05.638 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:14:05.639 Thread-1going to create resquest and response
+2023-02-03 16:14:05.645 Thread-1Incoming connection from /127.0.0.1:62016
+2023-02-03 16:14:05.645 Thread-1Ready to receive data
+2023-02-03 16:14:29.658 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:14:32.986 Thread-1Incoming connection from /127.0.0.1:62083
+2023-02-03 16:14:32.987 Thread-1Ready to receive data
+2023-02-03 16:14:32.993 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:14:32.993 Thread-1going to create resquest and response
+2023-02-03 16:14:32.998 Thread-1Incoming connection from /127.0.0.1:62083
+2023-02-03 16:14:32.999 Thread-1Ready to receive data
+2023-02-03 16:15:52.352 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:15:54.416 Thread-1Incoming connection from /127.0.0.1:62278
+2023-02-03 16:15:54.416 Thread-1Ready to receive data
+2023-02-03 16:15:54.422 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:15:54.422 Thread-1going to create resquest and response
+2023-02-03 16:15:54.427 Thread-1Incoming connection from /127.0.0.1:62278
+2023-02-03 16:15:54.427 Thread-1Ready to receive data
+2023-02-03 16:17:14.475 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:17:17.423 Thread-1Incoming connection from /127.0.0.1:62477
+2023-02-03 16:17:17.423 Thread-1Ready to receive data
+2023-02-03 16:17:17.429 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:17:17.429 Thread-1going to create resquest and response
+2023-02-03 16:17:17.435 Thread-1Incoming connection from /127.0.0.1:62477
+2023-02-03 16:17:17.435 Thread-1Ready to receive data
+2023-02-03 16:19:28.752 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:19:33.888 Thread-1Incoming connection from /127.0.0.1:62816
+2023-02-03 16:19:33.888 Thread-1Ready to receive data
+2023-02-03 16:19:33.893 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:19:33.894 Thread-1going to create resquest and response
+2023-02-03 16:19:33.900 Thread-1Incoming connection from /127.0.0.1:62816
+2023-02-03 16:19:33.900 Thread-1Ready to receive data
+2023-02-03 16:19:34.932 Thread-1b < 0, close socket and open another
+2023-02-03 16:22:04.754 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:22:07.919 Thread-1Incoming connection from /127.0.0.1:63185
+2023-02-03 16:22:07.919 Thread-1Ready to receive data
+2023-02-03 16:22:07.925 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:22:07.925 Thread-1going to create resquest and response
+2023-02-03 16:22:07.931 Thread-1Incoming connection from /127.0.0.1:63185
+2023-02-03 16:22:07.931 Thread-1Ready to receive data
+2023-02-03 16:24:53.610 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:24:57.710 Thread-1Incoming connection from /127.0.0.1:63598
+2023-02-03 16:24:57.710 Thread-1Ready to receive data
+2023-02-03 16:24:57.717 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:24:57.718 Thread-1going to create resquest and response
+2023-02-03 16:24:57.723 Thread-1Incoming connection from /127.0.0.1:63598
+2023-02-03 16:24:57.723 Thread-1Ready to receive data
+2023-02-03 16:25:09.025 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:25:10.991 Thread-1Incoming connection from /127.0.0.1:63634
+2023-02-03 16:25:10.991 Thread-1Ready to receive data
+2023-02-03 16:25:10.996 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:25:10.996 Thread-1going to create resquest and response
+2023-02-03 16:25:11.003 Thread-1Incoming connection from /127.0.0.1:63634
+2023-02-03 16:25:11.003 Thread-1Ready to receive data
+2023-02-03 16:25:12.026 Thread-1b < 0, close socket and open another
+2023-02-03 16:38:52.163 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:38:55.844 Thread-1Incoming connection from /127.0.0.1:49245
+2023-02-03 16:38:55.845 Thread-1Ready to receive data
+2023-02-03 16:38:55.851 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:38:55.851 Thread-1out writeCalled
+2023-02-03 16:38:55.857 Thread-1Incoming connection from /127.0.0.1:49245
+2023-02-03 16:38:55.857 Thread-1Ready to receive data
+2023-02-03 16:38:56.886 Thread-1b < 0, close socket and open another
+2023-02-03 16:39:34.459 Thread-2Incoming connection from /127.0.0.1:49339
+2023-02-03 16:39:34.460 Thread-2Ready to receive data
+2023-02-03 16:39:34.468 Thread-2Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:39:34.468 Thread-2out writeCalled
+2023-02-03 16:39:34.469 Thread-2Incoming connection from /127.0.0.1:49339
+2023-02-03 16:39:34.469 Thread-2Ready to receive data
+2023-02-03 16:39:35.499 Thread-2b < 0, close socket and open another
+2023-02-03 16:42:04.805 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:42:07.646 Thread-1Incoming connection from /127.0.0.1:49707
+2023-02-03 16:42:07.646 Thread-1Ready to receive data
+2023-02-03 16:42:07.652 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:42:07.655 Thread-1out writeCalled false
+2023-02-03 16:42:07.658 Thread-1Incoming connection from /127.0.0.1:49707
+2023-02-03 16:42:07.658 Thread-1Ready to receive data
+2023-02-03 16:42:08.686 Thread-1b < 0, close socket and open another
+2023-02-03 16:43:16.110 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:43:19.858 Thread-1Incoming connection from /127.0.0.1:49889
+2023-02-03 16:43:19.858 Thread-1Ready to receive data
+2023-02-03 16:43:19.863 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:43:19.866 Thread-1out writeCalled false
+2023-02-03 16:43:19.870 Thread-1Incoming connection from /127.0.0.1:49889
+2023-02-03 16:43:19.870 Thread-1Ready to receive data
+2023-02-03 16:43:20.899 Thread-1b < 0, close socket and open another
+2023-02-03 16:45:06.198 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:45:09.666 Thread-1Incoming connection from /127.0.0.1:50211
+2023-02-03 16:45:09.666 Thread-1Ready to receive data
+2023-02-03 16:45:09.671 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:45:09.674 Thread-1out writeCalled false
+2023-02-03 16:45:09.674 Thread-1in write
+2023-02-03 16:45:09.677 Thread-1in write
+2023-02-03 16:45:09.677 Thread-1Incoming connection from /127.0.0.1:50211
+2023-02-03 16:45:09.677 Thread-1Ready to receive data
+2023-02-03 16:45:10.724 Thread-1b < 0, close socket and open another
+2023-02-03 16:49:31.423 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:49:37.131 Thread-1Incoming connection from /127.0.0.1:50868
+2023-02-03 16:49:37.131 Thread-1Ready to receive data
+2023-02-03 16:49:37.138 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:49:37.140 Thread-1out writeCalled false
+2023-02-03 16:49:37.140 Thread-1after writeCalled
+2023-02-03 16:49:37.141 Thread-1in write
+2023-02-03 16:49:37.143 Thread-1in write
+2023-02-03 16:49:37.144 Thread-1after handle
+2023-02-03 16:49:37.144 Thread-1Incoming connection from /127.0.0.1:50868
+2023-02-03 16:49:37.144 Thread-1Ready to receive data
+2023-02-03 16:49:38.177 Thread-1b < 0, close socket and open another
+2023-02-03 16:50:09.198 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 16:50:12.718 Thread-1Incoming connection from /127.0.0.1:50957
+2023-02-03 16:50:12.718 Thread-1Ready to receive data
+2023-02-03 16:50:12.725 Thread-1Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 16:50:12.729 Thread-1out writeCalled false
+2023-02-03 16:50:12.729 Thread-1in write
+2023-02-03 16:50:12.732 Thread-1in write
+2023-02-03 16:50:12.733 Thread-1in writeCalled
+2023-02-03 18:09:45.797 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:10:17.891 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:10:22.574 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:10:26.936 Thread-1Incoming connection from /127.0.0.1:65268
+2023-02-03 18:10:26.936 Thread-1Ready to receive data
+2023-02-03 18:10:26.937 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:11:55.469 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:11:58.202 Thread-1Incoming connection from /127.0.0.1:49264
+2023-02-03 18:11:58.202 Thread-1Ready to receive data
+2023-02-03 18:11:58.204 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:11:58.204 Thread-1ERROR: Error 520: GET_@#$_/hello
+2023-02-03 18:13:09.543 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:13:17.599 Thread-1Incoming connection from /127.0.0.1:49535
+2023-02-03 18:13:17.599 Thread-1Ready to receive data
+2023-02-03 18:13:17.600 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:13:17.601 Thread-1ERROR: Error 520: GET_@#$_/hello[Ljava.lang.String;@335ba312
+2023-02-03 18:13:34.814 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:13:36.938 Thread-1Incoming connection from /127.0.0.1:49584
+2023-02-03 18:13:36.938 Thread-1Ready to receive data
+2023-02-03 18:13:36.940 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:13:36.940 Thread-1ERROR: Error 520: GET_@#$_/hello[Ljava.lang.String;@335ba312
+2023-02-03 18:14:15.928 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:14:17.917 Thread-1Incoming connection from /127.0.0.1:49728
+2023-02-03 18:14:17.917 Thread-1Ready to receive data
+2023-02-03 18:14:17.918 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:14:17.919 Thread-1ERROR: Error 520: GET_@#$_/hello_@#$_GET_@#$_/hello
+2023-02-03 18:17:42.884 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:17:45.001 Thread-1Incoming connection from /127.0.0.1:50611
+2023-02-03 18:17:45.001 Thread-1Ready to receive data
+2023-02-03 18:17:45.002 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:17:45.003 Thread-1ERROR: Error 520: GET_@#$_/hello_@#$_GET_@#$_/hello
+2023-02-03 18:17:45.003 Thread-1ERROR: Error 520: GET_@#$_/hello
+2023-02-03 18:19:27.712 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:19:31.431 Thread-1Incoming connection from /127.0.0.1:51004
+2023-02-03 18:19:31.431 Thread-1Ready to receive data
+2023-02-03 18:19:31.433 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:19:31.433 Thread-1ERROR: Error 520: GET_@#$_/hello_@#$_GET_@#$_/hello
+2023-02-03 18:19:31.434 Thread-1ERROR: GET
+2023-02-03 18:19:31.434 Thread-1ERROR: GET_
+2023-02-03 18:19:31.434 Thread-1ERROR: GET_@
+2023-02-03 18:19:31.434 Thread-1ERROR: GET_@#$_/hello
+2023-02-03 18:20:24.245 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:20:26.071 Thread-1Incoming connection from /127.0.0.1:51219
+2023-02-03 18:20:26.071 Thread-1Ready to receive data
+2023-02-03 18:20:26.073 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:20:26.073 Thread-1Begin to send
+2023-02-03 18:20:26.079 Thread-1Incoming connection from /127.0.0.1:51219
+2023-02-03 18:20:26.079 Thread-1Ready to receive data
+2023-02-03 18:20:26.081 Thread-1b < 0, close socket and open another
+2023-02-03 18:20:26.081 Thread-2Incoming connection from /127.0.0.1:51220
+2023-02-03 18:20:26.081 Thread-2Ready to receive data
+2023-02-03 18:20:26.082 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:20:26.082 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:20:26.084 Thread-2Incoming connection from /127.0.0.1:51220
+2023-02-03 18:20:26.084 Thread-2Ready to receive data
+2023-02-03 18:20:26.085 Thread-2b < 0, close socket and open another
+2023-02-03 18:20:26.086 Thread-3Incoming connection from /127.0.0.1:51221
+2023-02-03 18:20:26.086 Thread-3Ready to receive data
+2023-02-03 18:20:26.086 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:20:26.086 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:20:26.087 Thread-3Incoming connection from /127.0.0.1:51221
+2023-02-03 18:20:26.087 Thread-3Ready to receive data
+2023-02-03 18:20:26.097 Thread-3b < 0, close socket and open another
+2023-02-03 18:25:22.532 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:25:25.152 Thread-1Incoming connection from /127.0.0.1:52295
+2023-02-03 18:25:25.152 Thread-1Ready to receive data
+2023-02-03 18:25:25.153 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:25:25.155 Thread-1Begin to send
+2023-02-03 18:25:25.160 Thread-1Incoming connection from /127.0.0.1:52295
+2023-02-03 18:25:25.160 Thread-1Ready to receive data
+2023-02-03 18:25:25.162 Thread-1b < 0, close socket and open another
+2023-02-03 18:25:25.163 Thread-2Incoming connection from /127.0.0.1:52296
+2023-02-03 18:25:25.163 Thread-2Ready to receive data
+2023-02-03 18:25:25.163 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:25:25.164 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:25:25.166 Thread-2Incoming connection from /127.0.0.1:52296
+2023-02-03 18:25:25.166 Thread-2Ready to receive data
+2023-02-03 18:25:25.166 Thread-2b < 0, close socket and open another
+2023-02-03 18:25:25.167 Thread-3Incoming connection from /127.0.0.1:52297
+2023-02-03 18:25:25.167 Thread-3Ready to receive data
+2023-02-03 18:25:25.168 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:25:25.168 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:25:25.169 Thread-3Incoming connection from /127.0.0.1:52297
+2023-02-03 18:25:25.169 Thread-3Ready to receive data
+2023-02-03 18:25:25.181 Thread-3b < 0, close socket and open another
+2023-02-03 18:29:44.960 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:29:48.047 Thread-1Incoming connection from /127.0.0.1:53111
+2023-02-03 18:29:48.048 Thread-1Ready to receive data
+2023-02-03 18:29:48.049 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:29:48.050 Thread-1Begin to send
+2023-02-03 18:29:48.056 Thread-1Incoming connection from /127.0.0.1:53111
+2023-02-03 18:29:48.056 Thread-1Ready to receive data
+2023-02-03 18:29:48.058 Thread-1b < 0, close socket and open another
+2023-02-03 18:29:48.058 Thread-2Incoming connection from /127.0.0.1:53112
+2023-02-03 18:29:48.059 Thread-2Ready to receive data
+2023-02-03 18:29:48.059 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:29:48.060 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:29:48.062 Thread-2Incoming connection from /127.0.0.1:53112
+2023-02-03 18:29:48.062 Thread-2Ready to receive data
+2023-02-03 18:29:48.062 Thread-2b < 0, close socket and open another
+2023-02-03 18:29:48.063 Thread-3Incoming connection from /127.0.0.1:53113
+2023-02-03 18:29:48.063 Thread-3Ready to receive data
+2023-02-03 18:29:48.064 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:29:48.064 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:29:48.064 Thread-3Incoming connection from /127.0.0.1:53113
+2023-02-03 18:29:48.065 Thread-3Ready to receive data
+2023-02-03 18:29:48.075 Thread-3b < 0, close socket and open another
+2023-02-03 18:30:40.838 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:30:42.642 Thread-1Incoming connection from /127.0.0.1:53267
+2023-02-03 18:30:42.643 Thread-1Ready to receive data
+2023-02-03 18:30:42.644 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:30:42.645 Thread-1Begin to send
+2023-02-03 18:30:42.651 Thread-1Incoming connection from /127.0.0.1:53267
+2023-02-03 18:30:42.651 Thread-1Ready to receive data
+2023-02-03 18:30:42.653 Thread-1b < 0, close socket and open another
+2023-02-03 18:30:42.654 Thread-2Incoming connection from /127.0.0.1:53268
+2023-02-03 18:30:42.654 Thread-2Ready to receive data
+2023-02-03 18:30:42.654 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:30:42.655 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:30:42.657 Thread-2Incoming connection from /127.0.0.1:53268
+2023-02-03 18:30:42.657 Thread-2Ready to receive data
+2023-02-03 18:30:42.657 Thread-2b < 0, close socket and open another
+2023-02-03 18:30:42.658 Thread-3Incoming connection from /127.0.0.1:53269
+2023-02-03 18:30:42.658 Thread-3Ready to receive data
+2023-02-03 18:30:42.659 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:30:42.659 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:30:42.660 Thread-3Incoming connection from /127.0.0.1:53269
+2023-02-03 18:30:42.660 Thread-3Ready to receive data
+2023-02-03 18:30:42.670 Thread-3b < 0, close socket and open another
+2023-02-03 18:32:16.851 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:32:19.119 Thread-1Incoming connection from /127.0.0.1:53577
+2023-02-03 18:32:19.119 Thread-1Ready to receive data
+2023-02-03 18:32:19.120 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:32:19.121 Thread-1Begin to send
+2023-02-03 18:32:19.127 Thread-1Incoming connection from /127.0.0.1:53577
+2023-02-03 18:32:19.127 Thread-1Ready to receive data
+2023-02-03 18:32:19.129 Thread-1b < 0, close socket and open another
+2023-02-03 18:32:19.129 Thread-2Incoming connection from /127.0.0.1:53578
+2023-02-03 18:32:19.129 Thread-2Ready to receive data
+2023-02-03 18:32:19.130 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:32:19.130 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:32:19.132 Thread-2Incoming connection from /127.0.0.1:53578
+2023-02-03 18:32:19.133 Thread-2Ready to receive data
+2023-02-03 18:32:19.133 Thread-2b < 0, close socket and open another
+2023-02-03 18:32:19.134 Thread-3Incoming connection from /127.0.0.1:53579
+2023-02-03 18:32:19.134 Thread-3Ready to receive data
+2023-02-03 18:32:19.134 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:32:19.135 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:32:19.135 Thread-3Incoming connection from /127.0.0.1:53579
+2023-02-03 18:32:19.135 Thread-3Ready to receive data
+2023-02-03 18:32:19.145 Thread-3b < 0, close socket and open another
+2023-02-03 18:32:58.437 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:33:00.566 Thread-1Incoming connection from /127.0.0.1:53712
+2023-02-03 18:33:00.566 Thread-1Ready to receive data
+2023-02-03 18:33:00.568 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:33:00.569 Thread-1Begin to send
+2023-02-03 18:33:00.574 Thread-1Incoming connection from /127.0.0.1:53712
+2023-02-03 18:33:00.574 Thread-1Ready to receive data
+2023-02-03 18:33:00.576 Thread-1b < 0, close socket and open another
+2023-02-03 18:33:00.577 Thread-2Incoming connection from /127.0.0.1:53713
+2023-02-03 18:33:00.577 Thread-2Ready to receive data
+2023-02-03 18:33:00.577 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:33:00.578 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:33:00.580 Thread-2Incoming connection from /127.0.0.1:53713
+2023-02-03 18:33:00.580 Thread-2Ready to receive data
+2023-02-03 18:33:00.581 Thread-2b < 0, close socket and open another
+2023-02-03 18:33:00.582 Thread-3Incoming connection from /127.0.0.1:53714
+2023-02-03 18:33:00.582 Thread-3Ready to receive data
+2023-02-03 18:33:00.582 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:33:00.582 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:33:00.583 Thread-3Incoming connection from /127.0.0.1:53714
+2023-02-03 18:33:00.583 Thread-3Ready to receive data
+2023-02-03 18:33:00.593 Thread-3b < 0, close socket and open another
+2023-02-03 18:34:06.814 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:34:08.950 Thread-1Incoming connection from /127.0.0.1:53946
+2023-02-03 18:34:08.950 Thread-1Ready to receive data
+2023-02-03 18:34:08.951 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:34:08.952 Thread-1Begin to send
+2023-02-03 18:34:08.958 Thread-1Incoming connection from /127.0.0.1:53946
+2023-02-03 18:34:08.958 Thread-1Ready to receive data
+2023-02-03 18:34:08.960 Thread-1b < 0, close socket and open another
+2023-02-03 18:34:08.961 Thread-2Incoming connection from /127.0.0.1:53947
+2023-02-03 18:34:08.961 Thread-2Ready to receive data
+2023-02-03 18:34:08.961 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:34:08.962 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:34:08.964 Thread-2Incoming connection from /127.0.0.1:53947
+2023-02-03 18:34:08.964 Thread-2Ready to receive data
+2023-02-03 18:34:08.964 Thread-2b < 0, close socket and open another
+2023-02-03 18:34:08.965 Thread-3Incoming connection from /127.0.0.1:53948
+2023-02-03 18:34:08.965 Thread-3Ready to receive data
+2023-02-03 18:34:08.966 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:34:08.966 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:34:08.967 Thread-3Incoming connection from /127.0.0.1:53948
+2023-02-03 18:34:08.967 Thread-3Ready to receive data
+2023-02-03 18:34:08.977 Thread-3b < 0, close socket and open another
+2023-02-03 18:34:46.444 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:34:48.522 Thread-1Incoming connection from /127.0.0.1:54046
+2023-02-03 18:34:48.522 Thread-1Ready to receive data
+2023-02-03 18:34:48.524 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:34:48.531 Thread-1Begin to send
+2023-02-03 18:34:48.537 Thread-1Incoming connection from /127.0.0.1:54046
+2023-02-03 18:34:48.537 Thread-1Ready to receive data
+2023-02-03 18:34:48.539 Thread-1b < 0, close socket and open another
+2023-02-03 18:34:48.539 Thread-2Incoming connection from /127.0.0.1:54047
+2023-02-03 18:34:48.539 Thread-2Ready to receive data
+2023-02-03 18:34:48.540 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:34:48.541 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:34:48.542 Thread-2Incoming connection from /127.0.0.1:54047
+2023-02-03 18:34:48.543 Thread-2Ready to receive data
+2023-02-03 18:34:48.543 Thread-2b < 0, close socket and open another
+2023-02-03 18:34:48.544 Thread-3Incoming connection from /127.0.0.1:54048
+2023-02-03 18:34:48.544 Thread-3Ready to receive data
+2023-02-03 18:34:48.544 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:34:48.545 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:34:48.545 Thread-3Incoming connection from /127.0.0.1:54048
+2023-02-03 18:34:48.545 Thread-3Ready to receive data
+2023-02-03 18:34:48.556 Thread-3b < 0, close socket and open another
+2023-02-03 18:36:18.911 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:36:20.680 Thread-1Incoming connection from /127.0.0.1:54384
+2023-02-03 18:36:20.680 Thread-1Ready to receive data
+2023-02-03 18:36:20.682 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:36:20.689 Thread-1Begin to send
+2023-02-03 18:36:20.694 Thread-1Incoming connection from /127.0.0.1:54384
+2023-02-03 18:36:20.694 Thread-1Ready to receive data
+2023-02-03 18:36:20.696 Thread-1b < 0, close socket and open another
+2023-02-03 18:36:20.697 Thread-2Incoming connection from /127.0.0.1:54385
+2023-02-03 18:36:20.697 Thread-2Ready to receive data
+2023-02-03 18:36:20.697 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:36:20.698 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:36:20.700 Thread-2Incoming connection from /127.0.0.1:54385
+2023-02-03 18:36:20.700 Thread-2Ready to receive data
+2023-02-03 18:36:20.701 Thread-2b < 0, close socket and open another
+2023-02-03 18:36:20.701 Thread-3Incoming connection from /127.0.0.1:54386
+2023-02-03 18:36:20.702 Thread-3Ready to receive data
+2023-02-03 18:36:20.702 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:36:20.703 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:36:20.703 Thread-3Incoming connection from /127.0.0.1:54386
+2023-02-03 18:36:20.703 Thread-3Ready to receive data
+2023-02-03 18:36:20.724 Thread-3b < 0, close socket and open another
+2023-02-03 18:37:56.587 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:37:59.031 Thread-1Incoming connection from /127.0.0.1:54697
+2023-02-03 18:37:59.031 Thread-1Ready to receive data
+2023-02-03 18:37:59.032 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:37:59.033 Thread-1Begin to send
+2023-02-03 18:37:59.039 Thread-1Incoming connection from /127.0.0.1:54697
+2023-02-03 18:37:59.039 Thread-1Ready to receive data
+2023-02-03 18:37:59.041 Thread-1b < 0, close socket and open another
+2023-02-03 18:37:59.042 Thread-2Incoming connection from /127.0.0.1:54698
+2023-02-03 18:37:59.042 Thread-2Ready to receive data
+2023-02-03 18:37:59.043 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:37:59.044 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:37:59.046 Thread-2Incoming connection from /127.0.0.1:54698
+2023-02-03 18:37:59.046 Thread-2Ready to receive data
+2023-02-03 18:37:59.046 Thread-2b < 0, close socket and open another
+2023-02-03 18:37:59.047 Thread-3Incoming connection from /127.0.0.1:54699
+2023-02-03 18:37:59.047 Thread-3Ready to receive data
+2023-02-03 18:37:59.048 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:37:59.049 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:37:59.049 Thread-3Incoming connection from /127.0.0.1:54699
+2023-02-03 18:37:59.049 Thread-3Ready to receive data
+2023-02-03 18:37:59.060 Thread-3b < 0, close socket and open another
+2023-02-03 18:40:52.292 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:40:54.464 Thread-1Incoming connection from /127.0.0.1:55264
+2023-02-03 18:40:54.464 Thread-1Ready to receive data
+2023-02-03 18:40:54.465 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:40:54.466 Thread-1Begin to send
+2023-02-03 18:40:54.473 Thread-1Incoming connection from /127.0.0.1:55264
+2023-02-03 18:40:54.473 Thread-1Ready to receive data
+2023-02-03 18:40:54.475 Thread-1b < 0, close socket and open another
+2023-02-03 18:40:54.476 Thread-2Incoming connection from /127.0.0.1:55265
+2023-02-03 18:40:54.476 Thread-2Ready to receive data
+2023-02-03 18:40:54.476 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:40:54.477 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:40:54.479 Thread-2Incoming connection from /127.0.0.1:55265
+2023-02-03 18:40:54.479 Thread-2Ready to receive data
+2023-02-03 18:40:54.480 Thread-2b < 0, close socket and open another
+2023-02-03 18:40:54.481 Thread-3Incoming connection from /127.0.0.1:55266
+2023-02-03 18:40:54.481 Thread-3Ready to receive data
+2023-02-03 18:40:54.481 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:40:54.482 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:40:54.482 Thread-3Incoming connection from /127.0.0.1:55266
+2023-02-03 18:40:54.482 Thread-3Ready to receive data
+2023-02-03 18:40:54.493 Thread-3b < 0, close socket and open another
+2023-02-03 18:41:26.674 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:41:28.549 Thread-1Incoming connection from /127.0.0.1:55356
+2023-02-03 18:41:28.549 Thread-1Ready to receive data
+2023-02-03 18:41:28.551 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:41:28.552 Thread-1Begin to send
+2023-02-03 18:41:28.558 Thread-1Incoming connection from /127.0.0.1:55356
+2023-02-03 18:41:28.558 Thread-1Ready to receive data
+2023-02-03 18:41:28.560 Thread-1b < 0, close socket and open another
+2023-02-03 18:41:28.561 Thread-2Incoming connection from /127.0.0.1:55357
+2023-02-03 18:41:28.561 Thread-2Ready to receive data
+2023-02-03 18:41:28.562 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:41:28.563 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:41:28.565 Thread-2Incoming connection from /127.0.0.1:55357
+2023-02-03 18:41:28.565 Thread-2Ready to receive data
+2023-02-03 18:41:28.565 Thread-2b < 0, close socket and open another
+2023-02-03 18:41:28.566 Thread-3Incoming connection from /127.0.0.1:55358
+2023-02-03 18:41:28.566 Thread-3Ready to receive data
+2023-02-03 18:41:28.567 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:41:28.568 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:41:28.568 Thread-3Incoming connection from /127.0.0.1:55358
+2023-02-03 18:41:28.568 Thread-3Ready to receive data
+2023-02-03 18:41:28.578 Thread-3b < 0, close socket and open another
+2023-02-03 18:42:49.852 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:42:51.858 Thread-1Incoming connection from /127.0.0.1:55623
+2023-02-03 18:42:51.858 Thread-1Ready to receive data
+2023-02-03 18:42:51.860 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:42:51.861 Thread-1Begin to send
+2023-02-03 18:42:51.867 Thread-1Incoming connection from /127.0.0.1:55623
+2023-02-03 18:42:51.867 Thread-1Ready to receive data
+2023-02-03 18:42:51.869 Thread-1b < 0, close socket and open another
+2023-02-03 18:42:51.870 Thread-2Incoming connection from /127.0.0.1:55624
+2023-02-03 18:42:51.870 Thread-2Ready to receive data
+2023-02-03 18:42:51.870 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:42:51.871 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:42:51.873 Thread-2Incoming connection from /127.0.0.1:55624
+2023-02-03 18:42:51.874 Thread-2Ready to receive data
+2023-02-03 18:42:51.874 Thread-2b < 0, close socket and open another
+2023-02-03 18:42:51.875 Thread-3Incoming connection from /127.0.0.1:55625
+2023-02-03 18:42:51.875 Thread-3Ready to receive data
+2023-02-03 18:42:51.876 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:42:51.876 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:42:51.877 Thread-3Incoming connection from /127.0.0.1:55625
+2023-02-03 18:42:51.877 Thread-3Ready to receive data
+2023-02-03 18:42:51.888 Thread-3b < 0, close socket and open another
+2023-02-03 18:43:58.588 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:44:00.432 Thread-1Incoming connection from /127.0.0.1:55856
+2023-02-03 18:44:00.432 Thread-1Ready to receive data
+2023-02-03 18:44:00.433 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:44:00.434 Thread-1Begin to send
+2023-02-03 18:44:00.440 Thread-1Incoming connection from /127.0.0.1:55856
+2023-02-03 18:44:00.440 Thread-1Ready to receive data
+2023-02-03 18:44:00.442 Thread-1b < 0, close socket and open another
+2023-02-03 18:44:00.443 Thread-2Incoming connection from /127.0.0.1:55857
+2023-02-03 18:44:00.443 Thread-2Ready to receive data
+2023-02-03 18:44:00.444 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:44:00.444 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:44:00.446 Thread-2Incoming connection from /127.0.0.1:55857
+2023-02-03 18:44:00.446 Thread-2Ready to receive data
+2023-02-03 18:44:00.447 Thread-2b < 0, close socket and open another
+2023-02-03 18:44:00.448 Thread-3Incoming connection from /127.0.0.1:55858
+2023-02-03 18:44:00.448 Thread-3Ready to receive data
+2023-02-03 18:44:00.448 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:44:00.449 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:44:00.449 Thread-3Incoming connection from /127.0.0.1:55858
+2023-02-03 18:44:00.449 Thread-3Ready to receive data
+2023-02-03 18:44:00.459 Thread-3b < 0, close socket and open another
+2023-02-03 18:44:48.110 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:44:51.479 Thread-1Incoming connection from /127.0.0.1:55996
+2023-02-03 18:44:51.479 Thread-1Ready to receive data
+2023-02-03 18:44:51.480 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:44:51.482 Thread-1Begin to send
+2023-02-03 18:44:51.488 Thread-1Incoming connection from /127.0.0.1:55996
+2023-02-03 18:44:51.488 Thread-1Ready to receive data
+2023-02-03 18:44:51.490 Thread-1b < 0, close socket and open another
+2023-02-03 18:44:51.491 Thread-2Incoming connection from /127.0.0.1:55997
+2023-02-03 18:44:51.491 Thread-2Ready to receive data
+2023-02-03 18:44:51.492 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:44:51.493 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:44:51.495 Thread-2Incoming connection from /127.0.0.1:55997
+2023-02-03 18:44:51.495 Thread-2Ready to receive data
+2023-02-03 18:44:51.495 Thread-2b < 0, close socket and open another
+2023-02-03 18:44:51.496 Thread-3Incoming connection from /127.0.0.1:55998
+2023-02-03 18:44:51.496 Thread-3Ready to receive data
+2023-02-03 18:44:51.497 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:44:51.498 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:44:51.499 Thread-3Incoming connection from /127.0.0.1:55998
+2023-02-03 18:44:51.499 Thread-3Ready to receive data
+2023-02-03 18:44:51.510 Thread-3b < 0, close socket and open another
+2023-02-03 18:45:17.190 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:45:19.363 Thread-1Incoming connection from /127.0.0.1:56103
+2023-02-03 18:45:19.363 Thread-1Ready to receive data
+2023-02-03 18:45:19.365 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:45:19.366 Thread-1Begin to send
+2023-02-03 18:45:19.371 Thread-1Incoming connection from /127.0.0.1:56103
+2023-02-03 18:45:19.372 Thread-1Ready to receive data
+2023-02-03 18:45:19.374 Thread-1b < 0, close socket and open another
+2023-02-03 18:45:19.374 Thread-2Incoming connection from /127.0.0.1:56104
+2023-02-03 18:45:19.374 Thread-2Ready to receive data
+2023-02-03 18:45:19.375 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:45:19.376 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:45:19.378 Thread-2Incoming connection from /127.0.0.1:56104
+2023-02-03 18:45:19.378 Thread-2Ready to receive data
+2023-02-03 18:45:19.379 Thread-2b < 0, close socket and open another
+2023-02-03 18:45:19.380 Thread-3Incoming connection from /127.0.0.1:56105
+2023-02-03 18:45:19.380 Thread-3Ready to receive data
+2023-02-03 18:45:19.380 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:45:19.381 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:45:19.381 Thread-3Incoming connection from /127.0.0.1:56105
+2023-02-03 18:45:19.381 Thread-3Ready to receive data
+2023-02-03 18:45:19.392 Thread-3b < 0, close socket and open another
+2023-02-03 18:46:52.005 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:46:54.969 Thread-1Incoming connection from /127.0.0.1:56413
+2023-02-03 18:46:54.970 Thread-1Ready to receive data
+2023-02-03 18:46:54.971 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:46:54.972 Thread-1Begin to send
+2023-02-03 18:46:54.978 Thread-1Incoming connection from /127.0.0.1:56413
+2023-02-03 18:46:54.978 Thread-1Ready to receive data
+2023-02-03 18:46:54.980 Thread-1b < 0, close socket and open another
+2023-02-03 18:46:54.981 Thread-2Incoming connection from /127.0.0.1:56414
+2023-02-03 18:46:54.981 Thread-2Ready to receive data
+2023-02-03 18:46:54.982 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:46:54.983 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:46:54.984 Thread-2Incoming connection from /127.0.0.1:56414
+2023-02-03 18:46:54.985 Thread-2Ready to receive data
+2023-02-03 18:46:54.985 Thread-2b < 0, close socket and open another
+2023-02-03 18:46:54.986 Thread-3Incoming connection from /127.0.0.1:56415
+2023-02-03 18:46:54.986 Thread-3Ready to receive data
+2023-02-03 18:46:54.987 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:46:54.988 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:46:54.988 Thread-3Incoming connection from /127.0.0.1:56415
+2023-02-03 18:46:54.988 Thread-3Ready to receive data
+2023-02-03 18:46:54.998 Thread-3b < 0, close socket and open another
+2023-02-03 18:50:09.544 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:50:11.443 Thread-1Incoming connection from /127.0.0.1:57037
+2023-02-03 18:50:11.444 Thread-1Ready to receive data
+2023-02-03 18:50:11.445 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:50:11.447 Thread-1Begin to send
+2023-02-03 18:50:11.452 Thread-1Incoming connection from /127.0.0.1:57037
+2023-02-03 18:50:11.452 Thread-1Ready to receive data
+2023-02-03 18:50:11.454 Thread-1b < 0, close socket and open another
+2023-02-03 18:50:11.455 Thread-2Incoming connection from /127.0.0.1:57038
+2023-02-03 18:50:11.455 Thread-2Ready to receive data
+2023-02-03 18:50:11.455 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:50:11.456 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:50:11.458 Thread-2Incoming connection from /127.0.0.1:57038
+2023-02-03 18:50:11.458 Thread-2Ready to receive data
+2023-02-03 18:50:11.459 Thread-2b < 0, close socket and open another
+2023-02-03 18:50:11.459 Thread-3Incoming connection from /127.0.0.1:57039
+2023-02-03 18:50:11.460 Thread-3Ready to receive data
+2023-02-03 18:50:11.460 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:50:11.461 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:50:11.461 Thread-3Incoming connection from /127.0.0.1:57039
+2023-02-03 18:50:11.461 Thread-3Ready to receive data
+2023-02-03 18:50:11.471 Thread-3b < 0, close socket and open another
+2023-02-03 18:51:21.947 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:51:24.699 Thread-1Incoming connection from /127.0.0.1:57247
+2023-02-03 18:51:24.699 Thread-1Ready to receive data
+2023-02-03 18:51:24.701 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:51:24.704 Thread-1Begin to send
+2023-02-03 18:51:24.708 Thread-1Incoming connection from /127.0.0.1:57247
+2023-02-03 18:51:24.708 Thread-1Ready to receive data
+2023-02-03 18:51:24.710 Thread-1b < 0, close socket and open another
+2023-02-03 18:51:24.711 Thread-2Incoming connection from /127.0.0.1:57248
+2023-02-03 18:51:24.711 Thread-2Ready to receive data
+2023-02-03 18:51:24.711 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:51:24.712 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:51:24.714 Thread-2Incoming connection from /127.0.0.1:57248
+2023-02-03 18:51:24.714 Thread-2Ready to receive data
+2023-02-03 18:51:24.715 Thread-2b < 0, close socket and open another
+2023-02-03 18:51:24.716 Thread-3Incoming connection from /127.0.0.1:57249
+2023-02-03 18:51:24.716 Thread-3Ready to receive data
+2023-02-03 18:51:24.716 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:51:24.717 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:51:24.718 Thread-3Incoming connection from /127.0.0.1:57249
+2023-02-03 18:51:24.718 Thread-3Ready to receive data
+2023-02-03 18:51:24.728 Thread-3b < 0, close socket and open another
+2023-02-03 18:52:22.790 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:52:24.553 Thread-1Incoming connection from /127.0.0.1:57424
+2023-02-03 18:52:24.553 Thread-1Ready to receive data
+2023-02-03 18:52:24.555 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:52:24.556 Thread-1Begin to send
+2023-02-03 18:52:24.562 Thread-1Incoming connection from /127.0.0.1:57424
+2023-02-03 18:52:24.562 Thread-1Ready to receive data
+2023-02-03 18:52:24.564 Thread-1b < 0, close socket and open another
+2023-02-03 18:52:24.564 Thread-2Incoming connection from /127.0.0.1:57425
+2023-02-03 18:52:24.564 Thread-2Ready to receive data
+2023-02-03 18:52:24.565 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:52:24.566 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:52:24.568 Thread-2Incoming connection from /127.0.0.1:57425
+2023-02-03 18:52:24.568 Thread-2Ready to receive data
+2023-02-03 18:52:24.568 Thread-2b < 0, close socket and open another
+2023-02-03 18:52:24.569 Thread-3Incoming connection from /127.0.0.1:57426
+2023-02-03 18:52:24.569 Thread-3Ready to receive data
+2023-02-03 18:52:24.569 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:52:24.570 Thread-3ERROR: Error 404, file not found
+2023-02-03 18:52:24.571 Thread-3Incoming connection from /127.0.0.1:57426
+2023-02-03 18:52:24.571 Thread-3Ready to receive data
+2023-02-03 18:52:24.581 Thread-3b < 0, close socket and open another
+2023-02-03 18:53:51.672 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:53:53.296 Thread-1Incoming connection from /127.0.0.1:57697
+2023-02-03 18:53:53.296 Thread-1Ready to receive data
+2023-02-03 18:53:53.298 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:53:53.299 Thread-1Begin to send
+2023-02-03 18:53:53.309 Thread-1Incoming connection from /127.0.0.1:57697
+2023-02-03 18:53:53.309 Thread-1Ready to receive data
+2023-02-03 18:53:53.312 Thread-1b < 0, close socket and open another
+2023-02-03 18:53:53.313 Thread-2Incoming connection from /127.0.0.1:57698
+2023-02-03 18:53:53.313 Thread-2Ready to receive data
+2023-02-03 18:53:53.314 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:53:53.315 Thread-2ERROR: Error 404, file not found
+2023-02-03 18:53:53.318 Thread-2Incoming connection from /127.0.0.1:57698
+2023-02-03 18:53:53.318 Thread-2Ready to receive data
+2023-02-03 18:53:53.319 Thread-2b < 0, close socket and open another
+2023-02-03 18:53:53.320 Thread-3Incoming connection from /127.0.0.1:57699
+2023-02-03 18:53:53.320 Thread-3Ready to receive data
+2023-02-03 18:53:53.320 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:53:53.324 Thread-3Incoming connection from /127.0.0.1:57699
+2023-02-03 18:53:53.324 Thread-3Ready to receive data
+2023-02-03 18:53:53.325 Thread-3b < 0, close socket and open another
+2023-02-03 18:53:53.326 Thread-4Incoming connection from /127.0.0.1:57700
+2023-02-03 18:53:53.326 Thread-4Ready to receive data
+2023-02-03 18:53:53.341 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 18
+Host: localhost
+
+
+2023-02-03 18:53:53.343 Thread-4Incoming connection from /127.0.0.1:57700
+2023-02-03 18:53:53.343 Thread-4Ready to receive data
+2023-02-03 18:53:53.346 Thread-4b < 0, close socket and open another
+2023-02-03 18:53:53.348 Thread-5Incoming connection from /127.0.0.1:57701
+2023-02-03 18:53:53.349 Thread-5Ready to receive data
+2023-02-03 18:53:53.350 Thread-5Incoming: PUT /puthdr HTTP/1.1
+X-Foo: KSklwLLOk
+Host: localhost
+
+
+2023-02-03 18:53:53.350 Thread-5Incoming connection from /127.0.0.1:57701
+2023-02-03 18:53:53.350 Thread-5Ready to receive data
+2023-02-03 18:53:53.351 Thread-5b < 0, close socket and open another
+2023-02-03 18:53:53.352 Thread-6Incoming connection from /127.0.0.1:57702
+2023-02-03 18:53:53.352 Thread-6Ready to receive data
+2023-02-03 18:53:53.357 Thread-6Incoming: PUT /pathpar/1VCEo/123/kJJUX HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:53:53.358 Thread-6Incoming connection from /127.0.0.1:57702
+2023-02-03 18:53:53.358 Thread-6Ready to receive data
+2023-02-03 18:53:53.359 Thread-6b < 0, close socket and open another
+2023-02-03 18:53:53.361 Thread-7Incoming connection from /127.0.0.1:57703
+2023-02-03 18:53:53.361 Thread-7Ready to receive data
+2023-02-03 18:53:53.361 Thread-7Incoming: GET /error HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:53:53.362 Thread-7Incoming connection from /127.0.0.1:57703
+2023-02-03 18:53:53.362 Thread-7Ready to receive data
+2023-02-03 18:53:53.364 Thread-7b < 0, close socket and open another
+2023-02-03 18:53:53.365 Thread-8Incoming connection from /127.0.0.1:57704
+2023-02-03 18:53:53.365 Thread-8Ready to receive data
+2023-02-03 18:53:53.366 Thread-8Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:53:53.367 Thread-8in write
+2023-02-03 18:53:53.368 Thread-8in write
+2023-02-03 18:53:53.375 Thread-9Incoming connection from /127.0.0.1:57705
+2023-02-03 18:53:53.375 Thread-9Ready to receive data
+2023-02-03 18:53:53.384 Thread-9Incoming: GET /qparam?par1=MMtOG+X&par2=%22U3tRr%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 18:53:53.385 Thread-9ERROR: Error 404, file not found
+2023-02-03 18:53:53.385 Thread-9Incoming connection from /127.0.0.1:57705
+2023-02-03 18:53:53.385 Thread-9Ready to receive data
+2023-02-03 18:53:53.399 Thread-9b < 0, close socket and open another
+2023-02-03 18:57:52.528 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:57:56.842 Thread-1Incoming connection from /127.0.0.1:58517
+2023-02-03 18:57:56.843 Thread-1Ready to receive data
+2023-02-03 18:57:56.844 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:59:34.452 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:59:36.208 Thread-1Incoming connection from /127.0.0.1:58857
+2023-02-03 18:59:36.208 Thread-1Ready to receive data
+2023-02-03 18:59:36.210 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 18:59:53.677 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 18:59:55.358 Thread-1Incoming connection from /127.0.0.1:58914
+2023-02-03 18:59:55.358 Thread-1Ready to receive data
+2023-02-03 18:59:55.359 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:00:11.907 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 19:00:14.994 Thread-1Incoming connection from /127.0.0.1:58973
+2023-02-03 19:00:14.994 Thread-1Ready to receive data
+2023-02-03 19:00:14.996 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:00:14.996 Thread-1Begin to send
+2023-02-03 19:00:15.002 Thread-1Incoming connection from /127.0.0.1:58973
+2023-02-03 19:00:15.002 Thread-1Ready to receive data
+2023-02-03 19:00:15.004 Thread-1b < 0, close socket and open another
+2023-02-03 19:00:15.005 Thread-2Incoming connection from /127.0.0.1:58974
+2023-02-03 19:00:15.005 Thread-2Ready to receive data
+2023-02-03 19:00:15.005 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:00:15.006 Thread-2ERROR: Error 404, file not found
+2023-02-03 19:00:15.008 Thread-2Incoming connection from /127.0.0.1:58974
+2023-02-03 19:00:15.008 Thread-2Ready to receive data
+2023-02-03 19:00:15.008 Thread-2b < 0, close socket and open another
+2023-02-03 19:00:15.009 Thread-3Incoming connection from /127.0.0.1:58975
+2023-02-03 19:00:15.009 Thread-3Ready to receive data
+2023-02-03 19:00:15.010 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:00:15.012 Thread-3Incoming connection from /127.0.0.1:58975
+2023-02-03 19:00:15.012 Thread-3Ready to receive data
+2023-02-03 19:00:15.013 Thread-3b < 0, close socket and open another
+2023-02-03 19:00:15.014 Thread-4Incoming connection from /127.0.0.1:58976
+2023-02-03 19:00:15.014 Thread-4Ready to receive data
+2023-02-03 19:00:15.023 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 10
+Host: localhost
+
+
+2023-02-03 19:00:15.025 Thread-4Incoming connection from /127.0.0.1:58976
+2023-02-03 19:00:15.025 Thread-4Ready to receive data
+2023-02-03 19:00:15.026 Thread-4b < 0, close socket and open another
+2023-02-03 19:00:15.027 Thread-5Incoming connection from /127.0.0.1:58977
+2023-02-03 19:00:15.027 Thread-5Ready to receive data
+2023-02-03 19:00:15.027 Thread-5Incoming: PUT /puthdr HTTP/1.1
+X-Foo: LecbWVoN1e7FLY54
+Host: localhost
+
+
+2023-02-03 19:00:15.028 Thread-5Incoming connection from /127.0.0.1:58977
+2023-02-03 19:00:15.028 Thread-5Ready to receive data
+2023-02-03 19:00:15.028 Thread-5b < 0, close socket and open another
+2023-02-03 19:00:15.029 Thread-6Incoming connection from /127.0.0.1:58978
+2023-02-03 19:00:15.029 Thread-6Ready to receive data
+2023-02-03 19:00:15.032 Thread-6Incoming: PUT /pathpar/aUw8k/123/grdSz HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:00:15.033 Thread-6Incoming connection from /127.0.0.1:58978
+2023-02-03 19:00:15.033 Thread-6Ready to receive data
+2023-02-03 19:00:15.034 Thread-6b < 0, close socket and open another
+2023-02-03 19:00:15.035 Thread-7Incoming connection from /127.0.0.1:58979
+2023-02-03 19:00:15.035 Thread-7Ready to receive data
+2023-02-03 19:00:15.035 Thread-7Incoming: GET /error HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:00:15.036 Thread-7Incoming connection from /127.0.0.1:58979
+2023-02-03 19:00:15.036 Thread-7Ready to receive data
+2023-02-03 19:00:15.036 Thread-7b < 0, close socket and open another
+2023-02-03 19:00:15.037 Thread-8Incoming connection from /127.0.0.1:58980
+2023-02-03 19:00:15.037 Thread-8Ready to receive data
+2023-02-03 19:00:15.038 Thread-8Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:00:15.038 Thread-8in write
+2023-02-03 19:00:15.038 Thread-8in write
+2023-02-03 19:00:15.040 Thread-9Incoming connection from /127.0.0.1:58981
+2023-02-03 19:00:15.040 Thread-9Ready to receive data
+2023-02-03 19:00:15.044 Thread-9Incoming: GET /qparam?par1=x4emN+X&par2=%22EEkkk%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 19:00:15.044 Thread-9ERROR: Error 404, file not found
+2023-02-03 19:00:15.045 Thread-9Incoming connection from /127.0.0.1:58981
+2023-02-03 19:00:15.045 Thread-9Ready to receive data
+2023-02-03 19:00:15.065 Thread-9b < 0, close socket and open another
+2023-02-03 19:54:20.357 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 19:54:23.016 Thread-1Incoming connection from /127.0.0.1:51889
+2023-02-03 19:54:23.016 Thread-1Ready to receive data
+2023-02-03 19:54:23.018 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:54:23.019 Thread-1Begin to send
+2023-02-03 19:54:23.025 Thread-1Incoming connection from /127.0.0.1:51889
+2023-02-03 19:54:23.025 Thread-1Ready to receive data
+2023-02-03 19:54:23.027 Thread-1b < 0, close socket and open another
+2023-02-03 19:54:23.027 Thread-2Incoming connection from /127.0.0.1:51890
+2023-02-03 19:54:23.027 Thread-2Ready to receive data
+2023-02-03 19:54:23.028 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:54:23.029 Thread-2ERROR: Error 404, file not found
+2023-02-03 19:54:23.031 Thread-2Incoming connection from /127.0.0.1:51890
+2023-02-03 19:54:23.031 Thread-2Ready to receive data
+2023-02-03 19:54:23.031 Thread-2b < 0, close socket and open another
+2023-02-03 19:54:23.032 Thread-3Incoming connection from /127.0.0.1:51891
+2023-02-03 19:54:23.032 Thread-3Ready to receive data
+2023-02-03 19:54:23.033 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:54:23.035 Thread-3Incoming connection from /127.0.0.1:51891
+2023-02-03 19:54:23.036 Thread-3Ready to receive data
+2023-02-03 19:54:23.036 Thread-3b < 0, close socket and open another
+2023-02-03 19:54:23.037 Thread-4Incoming connection from /127.0.0.1:51892
+2023-02-03 19:54:23.038 Thread-4Ready to receive data
+2023-02-03 19:54:23.046 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 7
+Host: localhost
+
+
+2023-02-03 19:54:23.047 Thread-4Incoming connection from /127.0.0.1:51892
+2023-02-03 19:54:23.048 Thread-4Ready to receive data
+2023-02-03 19:54:23.048 Thread-4b < 0, close socket and open another
+2023-02-03 19:54:23.049 Thread-5Incoming connection from /127.0.0.1:51893
+2023-02-03 19:54:23.049 Thread-5Ready to receive data
+2023-02-03 19:54:23.050 Thread-5Incoming: PUT /puthdr HTTP/1.1
+X-Foo: ujxyH6mcW
+Host: localhost
+
+
+2023-02-03 19:54:23.050 Thread-5Incoming connection from /127.0.0.1:51893
+2023-02-03 19:54:23.050 Thread-5Ready to receive data
+2023-02-03 19:54:23.051 Thread-5b < 0, close socket and open another
+2023-02-03 19:54:23.052 Thread-6Incoming connection from /127.0.0.1:51894
+2023-02-03 19:54:23.052 Thread-6Ready to receive data
+2023-02-03 19:54:23.055 Thread-6Incoming: PUT /pathpar/W2aeU/123/y99Jc HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:54:23.056 Thread-6Incoming connection from /127.0.0.1:51894
+2023-02-03 19:54:23.056 Thread-6Ready to receive data
+2023-02-03 19:54:23.056 Thread-6b < 0, close socket and open another
+2023-02-03 19:54:23.057 Thread-7Incoming connection from /127.0.0.1:51895
+2023-02-03 19:54:23.058 Thread-7Ready to receive data
+2023-02-03 19:54:23.058 Thread-7Incoming: GET /error HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:54:23.059 Thread-7Incoming connection from /127.0.0.1:51895
+2023-02-03 19:54:23.059 Thread-7Ready to receive data
+2023-02-03 19:54:23.059 Thread-7b < 0, close socket and open another
+2023-02-03 19:54:23.060 Thread-8Incoming connection from /127.0.0.1:51896
+2023-02-03 19:54:23.060 Thread-8Ready to receive data
+2023-02-03 19:54:23.060 Thread-8Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 19:54:23.061 Thread-8in write
+2023-02-03 19:54:23.061 Thread-8in write
+2023-02-03 19:54:23.062 Thread-9Incoming connection from /127.0.0.1:51897
+2023-02-03 19:54:23.062 Thread-9Ready to receive data
+2023-02-03 19:54:23.067 Thread-9Incoming: GET /qparam?par1=CLdSx+X&par2=%22weaDz%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 19:54:23.068 Thread-9ERROR: Error 404, file not found
+2023-02-03 19:54:23.068 Thread-9Incoming connection from /127.0.0.1:51897
+2023-02-03 19:54:23.069 Thread-9Ready to receive data
+2023-02-03 19:54:23.076 Thread-9b < 0, close socket and open another
+2023-02-03 20:10:35.588 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:10:46.611 Thread-1Incoming connection from /127.0.0.1:55220
+2023-02-03 20:10:46.611 Thread-1Ready to receive data
+2023-02-03 20:10:46.624 Thread-1Incoming: GET /qparam?par1=zOfUI+X&par2=%22MUn24%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:10:46.632 Thread-1Incoming connection from /127.0.0.1:55220
+2023-02-03 20:10:46.632 Thread-1Ready to receive data
+2023-02-03 20:10:46.642 Thread-1b < 0, close socket and open another
+2023-02-03 20:14:30.843 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:14:40.309 Thread-1Incoming connection from /127.0.0.1:56091
+2023-02-03 20:14:40.309 Thread-1Ready to receive data
+2023-02-03 20:14:40.320 Thread-1Incoming: GET /qparam?par1=j39ZM+X&par2=%22iRp0e%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:14:40.328 Thread-1Incoming connection from /127.0.0.1:56091
+2023-02-03 20:14:40.329 Thread-1Ready to receive data
+2023-02-03 20:14:40.349 Thread-1b < 0, close socket and open another
+2023-02-03 20:15:28.337 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:15:30.586 Thread-1Incoming connection from /127.0.0.1:56240
+2023-02-03 20:15:30.586 Thread-1Ready to receive data
+2023-02-03 20:15:30.598 Thread-1Incoming: GET /qparam?par1=2kwJC+X&par2=%22VbcM3%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:15:30.606 Thread-1Incoming connection from /127.0.0.1:56240
+2023-02-03 20:15:30.606 Thread-1Ready to receive data
+2023-02-03 20:15:30.616 Thread-1b < 0, close socket and open another
+2023-02-03 20:24:51.641 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:24:54.270 Thread-1Incoming connection from /127.0.0.1:60232
+2023-02-03 20:24:54.270 Thread-1Ready to receive data
+2023-02-03 20:24:54.287 Thread-1Incoming: GET /qparam?par1=QZv6z+X&par2=%22SAx6c%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:24:54.300 Thread-1Incoming connection from /127.0.0.1:60232
+2023-02-03 20:24:54.300 Thread-1Ready to receive data
+2023-02-03 20:24:54.322 Thread-1b < 0, close socket and open another
+2023-02-03 20:26:12.719 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:26:15.236 Thread-1Incoming connection from /127.0.0.1:60871
+2023-02-03 20:26:15.236 Thread-1Ready to receive data
+2023-02-03 20:26:15.248 Thread-1Incoming: GET /qparam?par1=5VXEb+X&par2=%22OLOrY%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:26:15.258 Thread-1Incoming connection from /127.0.0.1:60871
+2023-02-03 20:26:15.258 Thread-1Ready to receive data
+2023-02-03 20:26:15.268 Thread-1b < 0, close socket and open another
+2023-02-03 20:26:28.927 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:26:31.375 Thread-1Incoming connection from /127.0.0.1:60944
+2023-02-03 20:26:31.375 Thread-1Ready to receive data
+2023-02-03 20:26:31.388 Thread-1Incoming: GET /qparam?par1=0hY6o+X&par2=%22oCjOQ%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:26:31.397 Thread-1Incoming connection from /127.0.0.1:60944
+2023-02-03 20:26:31.397 Thread-1Ready to receive data
+2023-02-03 20:26:31.407 Thread-1b < 0, close socket and open another
+2023-02-03 20:28:00.182 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:28:03.383 Thread-1Incoming connection from /127.0.0.1:61515
+2023-02-03 20:28:03.383 Thread-1Ready to receive data
+2023-02-03 20:28:03.396 Thread-1Incoming: GET /qparam?par1=iJmw3+X&par2=%22W9t42%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:28:03.404 Thread-1Incoming connection from /127.0.0.1:61515
+2023-02-03 20:28:03.405 Thread-1Ready to receive data
+2023-02-03 20:28:03.414 Thread-1b < 0, close socket and open another
+2023-02-03 20:29:50.585 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:30:12.513 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:30:19.246 Thread-1Incoming connection from /127.0.0.1:62229
+2023-02-03 20:30:19.246 Thread-1Ready to receive data
+2023-02-03 20:30:19.259 Thread-1Incoming: GET /qparam?par1=mA0zz+X&par2=%22JRu1Q%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:30:19.269 Thread-1Incoming connection from /127.0.0.1:62229
+2023-02-03 20:30:19.270 Thread-1Ready to receive data
+2023-02-03 20:30:19.280 Thread-1b < 0, close socket and open another
+2023-02-03 20:31:23.392 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:31:25.802 Thread-1Incoming connection from /127.0.0.1:62523
+2023-02-03 20:31:25.803 Thread-1Ready to receive data
+2023-02-03 20:31:25.814 Thread-1Incoming: GET /qparam?par1=j2ZmK+X&par2=%22uS0HZ%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:31:25.823 Thread-1Incoming connection from /127.0.0.1:62523
+2023-02-03 20:31:25.823 Thread-1Ready to receive data
+2023-02-03 20:31:25.825 Thread-1b < 0, close socket and open another
+2023-02-03 20:31:49.169 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:31:54.097 Thread-1Incoming connection from /127.0.0.1:62633
+2023-02-03 20:31:54.103 Thread-1Ready to receive data
+2023-02-03 20:31:54.104 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:32:45.817 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:32:47.825 Thread-1Incoming connection from /127.0.0.1:62807
+2023-02-03 20:32:47.825 Thread-1Ready to receive data
+2023-02-03 20:32:47.826 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:32:47.827 Thread-1Begin to send
+2023-02-03 20:32:47.833 Thread-1Incoming connection from /127.0.0.1:62807
+2023-02-03 20:32:47.833 Thread-1Ready to receive data
+2023-02-03 20:32:47.835 Thread-1b < 0, close socket and open another
+2023-02-03 20:32:47.835 Thread-2Incoming connection from /127.0.0.1:62808
+2023-02-03 20:32:47.835 Thread-2Ready to receive data
+2023-02-03 20:32:47.836 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:32:47.837 Thread-2ERROR: Error 404, file not found
+2023-02-03 20:32:47.838 Thread-2Incoming connection from /127.0.0.1:62808
+2023-02-03 20:32:47.838 Thread-2Ready to receive data
+2023-02-03 20:32:47.839 Thread-2b < 0, close socket and open another
+2023-02-03 20:32:47.840 Thread-3Incoming connection from /127.0.0.1:62809
+2023-02-03 20:32:47.840 Thread-3Ready to receive data
+2023-02-03 20:32:47.840 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:32:47.843 Thread-3Incoming connection from /127.0.0.1:62809
+2023-02-03 20:32:47.843 Thread-3Ready to receive data
+2023-02-03 20:32:47.843 Thread-3b < 0, close socket and open another
+2023-02-03 20:32:47.844 Thread-4Incoming connection from /127.0.0.1:62810
+2023-02-03 20:32:47.845 Thread-4Ready to receive data
+2023-02-03 20:32:47.853 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 15
+Host: localhost
+
+
+2023-02-03 20:32:47.855 Thread-4Incoming connection from /127.0.0.1:62810
+2023-02-03 20:32:47.855 Thread-4Ready to receive data
+2023-02-03 20:32:47.856 Thread-4b < 0, close socket and open another
+2023-02-03 20:32:47.857 Thread-5Incoming connection from /127.0.0.1:62811
+2023-02-03 20:32:47.857 Thread-5Ready to receive data
+2023-02-03 20:32:47.857 Thread-5Incoming: PUT /puthdr HTTP/1.1
+X-Foo: LY4pprzXJnrhwDf
+Host: localhost
+
+
+2023-02-03 20:32:47.858 Thread-5Incoming connection from /127.0.0.1:62811
+2023-02-03 20:32:47.858 Thread-5Ready to receive data
+2023-02-03 20:32:47.858 Thread-5b < 0, close socket and open another
+2023-02-03 20:32:47.859 Thread-6Incoming connection from /127.0.0.1:62812
+2023-02-03 20:32:47.859 Thread-6Ready to receive data
+2023-02-03 20:32:47.863 Thread-6Incoming: PUT /pathpar/A1cUl/123/owJa8 HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:32:47.863 Thread-6Incoming connection from /127.0.0.1:62812
+2023-02-03 20:32:47.863 Thread-6Ready to receive data
+2023-02-03 20:32:47.864 Thread-6b < 0, close socket and open another
+2023-02-03 20:32:47.864 Thread-7Incoming connection from /127.0.0.1:62813
+2023-02-03 20:32:47.865 Thread-7Ready to receive data
+2023-02-03 20:32:47.865 Thread-7Incoming: GET /error HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:32:47.866 Thread-7Incoming connection from /127.0.0.1:62813
+2023-02-03 20:32:47.866 Thread-7Ready to receive data
+2023-02-03 20:32:47.866 Thread-7b < 0, close socket and open another
+2023-02-03 20:32:47.867 Thread-8Incoming connection from /127.0.0.1:62814
+2023-02-03 20:32:47.867 Thread-8Ready to receive data
+2023-02-03 20:32:47.867 Thread-8Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:32:47.868 Thread-8in write
+2023-02-03 20:32:47.868 Thread-8in write
+2023-02-03 20:32:47.870 Thread-9Incoming connection from /127.0.0.1:62815
+2023-02-03 20:32:47.870 Thread-9Ready to receive data
+2023-02-03 20:32:47.874 Thread-9Incoming: GET /qparam?par1=bp0wb+X&par2=%22qlkQ4%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:32:47.878 Thread-9Incoming connection from /127.0.0.1:62815
+2023-02-03 20:32:47.878 Thread-9Ready to receive data
+2023-02-03 20:32:47.879 Thread-9b < 0, close socket and open another
+2023-02-03 20:34:42.179 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 20:34:46.820 Thread-1Incoming connection from /127.0.0.1:64531
+2023-02-03 20:34:46.820 Thread-1Ready to receive data
+2023-02-03 20:34:46.822 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:34:46.822 Thread-1Begin to send
+2023-02-03 20:34:46.829 Thread-1Incoming connection from /127.0.0.1:64531
+2023-02-03 20:34:46.829 Thread-1Ready to receive data
+2023-02-03 20:34:46.831 Thread-1b < 0, close socket and open another
+2023-02-03 20:34:46.832 Thread-2Incoming connection from /127.0.0.1:64532
+2023-02-03 20:34:46.832 Thread-2Ready to receive data
+2023-02-03 20:34:46.833 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:34:46.834 Thread-2ERROR: Error 404, file not found
+2023-02-03 20:34:46.837 Thread-2Incoming connection from /127.0.0.1:64532
+2023-02-03 20:34:46.837 Thread-2Ready to receive data
+2023-02-03 20:34:46.838 Thread-2b < 0, close socket and open another
+2023-02-03 20:34:46.839 Thread-3Incoming connection from /127.0.0.1:64533
+2023-02-03 20:34:46.839 Thread-3Ready to receive data
+2023-02-03 20:34:46.840 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:34:46.844 Thread-3Incoming connection from /127.0.0.1:64533
+2023-02-03 20:34:46.844 Thread-3Ready to receive data
+2023-02-03 20:34:46.846 Thread-3b < 0, close socket and open another
+2023-02-03 20:34:46.847 Thread-4Incoming connection from /127.0.0.1:64534
+2023-02-03 20:34:46.847 Thread-4Ready to receive data
+2023-02-03 20:34:46.862 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 11
+Host: localhost
+
+
+2023-02-03 20:34:46.863 Thread-4Incoming connection from /127.0.0.1:64534
+2023-02-03 20:34:46.863 Thread-4Ready to receive data
+2023-02-03 20:34:46.865 Thread-4b < 0, close socket and open another
+2023-02-03 20:34:46.867 Thread-5Incoming connection from /127.0.0.1:64535
+2023-02-03 20:34:46.867 Thread-5Ready to receive data
+2023-02-03 20:34:46.867 Thread-5Incoming: PUT /puthdr HTTP/1.1
+X-Foo: W4vr5wM9VNT5yf
+Host: localhost
+
+
+2023-02-03 20:34:46.868 Thread-5Incoming connection from /127.0.0.1:64535
+2023-02-03 20:34:46.868 Thread-5Ready to receive data
+2023-02-03 20:34:46.869 Thread-5b < 0, close socket and open another
+2023-02-03 20:34:46.870 Thread-6Incoming connection from /127.0.0.1:64536
+2023-02-03 20:34:46.870 Thread-6Ready to receive data
+2023-02-03 20:34:46.875 Thread-6Incoming: PUT /pathpar/HddlS/123/vaw1N HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:34:46.875 Thread-6Incoming connection from /127.0.0.1:64536
+2023-02-03 20:34:46.875 Thread-6Ready to receive data
+2023-02-03 20:34:46.876 Thread-6b < 0, close socket and open another
+2023-02-03 20:34:46.878 Thread-7Incoming connection from /127.0.0.1:64537
+2023-02-03 20:34:46.878 Thread-7Ready to receive data
+2023-02-03 20:34:46.878 Thread-7Incoming: GET /error HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:34:46.879 Thread-7Incoming connection from /127.0.0.1:64537
+2023-02-03 20:34:46.879 Thread-7Ready to receive data
+2023-02-03 20:34:46.879 Thread-7b < 0, close socket and open another
+2023-02-03 20:34:46.881 Thread-8Incoming connection from /127.0.0.1:64538
+2023-02-03 20:34:46.881 Thread-8Ready to receive data
+2023-02-03 20:34:46.881 Thread-8Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-03 20:34:46.881 Thread-8in write
+2023-02-03 20:34:46.882 Thread-8in write
+2023-02-03 20:34:46.884 Thread-9Incoming connection from /127.0.0.1:64539
+2023-02-03 20:34:46.884 Thread-9Ready to receive data
+2023-02-03 20:34:46.889 Thread-9Incoming: GET /qparam?par1=BCZRT+X&par2=%22Dk1ng%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-03 20:34:46.895 Thread-9Incoming connection from /127.0.0.1:64539
+2023-02-03 20:34:46.895 Thread-9Ready to receive data
+2023-02-03 20:34:46.895 Thread-9b < 0, close socket and open another
+2023-02-03 23:37:27.063 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 23:38:55.422 Thread-1Incoming connection from /127.0.0.1:63841
+2023-02-03 23:38:55.423 Thread-1Ready to receive data
+2023-02-03 23:38:55.433 Thread-1Incoming: POST /postbody HTTP/1.1
+Content-Length: 17
+Host: localhost
+
+
+2023-02-03 23:38:55.438 Thread-1Incoming connection from /127.0.0.1:63841
+2023-02-03 23:38:55.439 Thread-1Ready to receive data
+2023-02-03 23:38:55.441 Thread-1b < 0, close socket and open another
+2023-02-03 23:43:20.559 Thread-2Incoming connection from /127.0.0.1:64491
+2023-02-03 23:43:20.559 Thread-2Ready to receive data
+2023-02-03 23:43:20.561 Thread-2Incoming: GET /foo HTTP/1.1
+Host: localhost
+
+
+2023-02-03 23:43:20.561 Thread-2Incoming connection from /127.0.0.1:64491
+2023-02-03 23:43:20.561 Thread-2Ready to receive data
+2023-02-03 23:43:20.572 Thread-2b < 0, close socket and open another
+2023-02-03 23:43:53.010 Thread-3Incoming connection from /127.0.0.1:64572
+2023-02-03 23:43:53.010 Thread-3Ready to receive data
+2023-02-03 23:43:53.012 Thread-3Incoming: GET /foo HTTP/1.1
+Host: localhost
+
+
+2023-02-03 23:43:53.012 Thread-3Incoming connection from /127.0.0.1:64572
+2023-02-03 23:43:53.013 Thread-3Ready to receive data
+2023-02-03 23:43:53.029 Thread-3b < 0, close socket and open another
+2023-02-03 23:44:36.020 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 23:44:41.818 Thread-1Incoming connection from /127.0.0.1:64722
+2023-02-03 23:44:41.818 Thread-1Ready to receive data
+2023-02-03 23:44:41.820 Thread-1Incoming: GET /foo HTTP/1.1
+Host: localhost
+
+
+2023-02-03 23:44:41.825 Thread-1Incoming connection from /127.0.0.1:64722
+2023-02-03 23:44:41.825 Thread-1Ready to receive data
+2023-02-03 23:44:41.835 Thread-1b < 0, close socket and open another
+2023-02-03 23:46:31.723 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 23:46:39.247 Thread-1Incoming connection from /127.0.0.1:65010
+2023-02-03 23:46:39.247 Thread-1Ready to receive data
+2023-02-03 23:46:39.249 Thread-1Incoming: GET /foo HTTP/1.1
+Host: localhost
+
+
+2023-02-03 23:46:39.253 Thread-1Incoming connection from /127.0.0.1:65010
+2023-02-03 23:46:39.253 Thread-1Ready to receive data
+2023-02-03 23:48:34.556 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 23:48:39.659 Thread-1Incoming connection from /127.0.0.1:65306
+2023-02-03 23:48:39.659 Thread-1Ready to receive data
+2023-02-03 23:48:39.660 Thread-1Incoming: GET /foo HTTP/1.1
+Host: localhost
+
+
+2023-02-03 23:48:39.663 Thread-1Incoming connection from /127.0.0.1:65306
+2023-02-03 23:48:39.663 Thread-1Ready to receive data
+2023-02-03 23:48:39.682 Thread-1b < 0, close socket and open another
+2023-02-03 23:48:58.049 Thread-2Incoming connection from /127.0.0.1:65352
+2023-02-03 23:48:58.049 Thread-2Ready to receive data
+2023-02-03 23:48:58.060 Thread-2Incoming: POST /postbody HTTP/1.1
+Content-Length: 17
+Host: localhost
+
+
+2023-02-03 23:48:58.063 Thread-2Incoming connection from /127.0.0.1:65352
+2023-02-03 23:48:58.063 Thread-2Ready to receive data
+2023-02-03 23:48:58.066 Thread-2b < 0, close socket and open another
+2023-02-03 23:49:03.337 Thread-3Incoming connection from /127.0.0.1:65365
+2023-02-03 23:49:03.337 Thread-3Ready to receive data
+2023-02-03 23:49:03.339 Thread-3Incoming: GET /foo HTTP/1.1
+Host: localhost
+
+
+2023-02-03 23:49:03.340 Thread-3Incoming connection from /127.0.0.1:65365
+2023-02-03 23:49:03.340 Thread-3Ready to receive data
+2023-02-03 23:49:03.359 Thread-3b < 0, close socket and open another
+2023-02-03 23:51:43.448 Thread-4Incoming connection from /127.0.0.1:49367
+2023-02-03 23:51:43.448 Thread-4Ready to receive data
+2023-02-03 23:51:43.461 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 6
+Host: localhost
+
+
+2023-02-03 23:51:43.462 Thread-4Incoming connection from /127.0.0.1:49367
+2023-02-03 23:51:43.462 Thread-4Ready to receive data
+2023-02-03 23:51:43.464 Thread-4Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-03 23:51:43.465 Thread-4Incoming connection from /127.0.0.1:49367
+2023-02-03 23:51:43.465 Thread-4Ready to receive data
+2023-02-03 23:51:43.466 Thread-4b < 0, close socket and open another
+2023-02-03 23:53:11.900 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 23:53:15.127 Thread-1Incoming connection from /127.0.0.1:49587
+2023-02-03 23:53:15.127 Thread-1Ready to receive data
+2023-02-03 23:53:15.136 Thread-1Incoming: POST /postbody HTTP/1.1
+Content-Length: 7
+Host: localhost
+
+
+2023-02-03 23:53:15.141 Thread-1Incoming connection from /127.0.0.1:49587
+2023-02-03 23:53:15.141 Thread-1Ready to receive data
+2023-02-03 23:53:15.143 Thread-1Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-03 23:53:15.144 Thread-1Incoming connection from /127.0.0.1:49587
+2023-02-03 23:53:15.144 Thread-1Ready to receive data
+2023-02-03 23:53:15.146 Thread-1b < 0, close socket and open another
+2023-02-03 23:55:06.457 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 23:55:08.729 Thread-1Incoming connection from /127.0.0.1:49858
+2023-02-03 23:55:08.729 Thread-1Ready to receive data
+2023-02-03 23:55:08.738 Thread-1Incoming: POST /postbody HTTP/1.1
+Content-Length: 16
+Host: localhost
+
+
+2023-02-03 23:55:08.743 Thread-1Incoming connection from /127.0.0.1:49858
+2023-02-03 23:55:08.743 Thread-1Ready to receive data
+2023-02-03 23:55:08.745 Thread-1Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-03 23:55:08.747 Thread-1Incoming connection from /127.0.0.1:49858
+2023-02-03 23:55:08.747 Thread-1Ready to receive data
+2023-02-03 23:55:08.748 Thread-1b < 0, close socket and open another
+2023-02-03 23:57:24.603 Thread-2Incoming connection from /127.0.0.1:50197
+2023-02-03 23:57:24.603 Thread-2Ready to receive data
+2023-02-03 23:57:24.613 Thread-2Incoming: POST /postbody HTTP/1.1
+Content-Length: 17
+Host: localhost
+
+
+2023-02-03 23:57:24.614 Thread-2Incoming connection from /127.0.0.1:50197
+2023-02-03 23:57:24.614 Thread-2Ready to receive data
+2023-02-03 23:57:24.616 Thread-2Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-03 23:57:24.616 Thread-2Incoming connection from /127.0.0.1:50197
+2023-02-03 23:57:24.616 Thread-2Ready to receive data
+2023-02-03 23:57:24.618 Thread-2b < 0, close socket and open another
+2023-02-03 23:58:50.772 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-03 23:58:53.111 Thread-1Incoming connection from /127.0.0.1:50412
+2023-02-03 23:58:53.111 Thread-1Ready to receive data
+2023-02-03 23:58:53.123 Thread-1Incoming: POST /postbody HTTP/1.1
+Content-Length: 13
+Host: localhost
+
+
+2023-02-03 23:58:53.129 Thread-1Incoming connection from /127.0.0.1:50412
+2023-02-03 23:58:53.130 Thread-1Ready to receive data
+2023-02-03 23:58:53.131 Thread-1Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-03 23:58:53.132 Thread-1Incoming connection from /127.0.0.1:50412
+2023-02-03 23:58:53.132 Thread-1Ready to receive data
+2023-02-03 23:58:53.134 Thread-1b < 0, close socket and open another
+2023-02-04 00:00:00.167 Thread-2Incoming connection from /127.0.0.1:50572
+2023-02-04 00:00:00.167 Thread-2Ready to receive data
+2023-02-04 00:00:00.182 Thread-2Incoming: POST /postbody HTTP/1.1
+Content-Length: 6
+Host: localhost
+
+
+2023-02-04 00:00:00.184 Thread-2Incoming connection from /127.0.0.1:50572
+2023-02-04 00:00:00.184 Thread-2Ready to receive data
+2023-02-04 00:00:00.187 Thread-2Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-04 00:00:00.187 Thread-2Incoming connection from /127.0.0.1:50572
+2023-02-04 00:00:00.188 Thread-2Ready to receive data
+2023-02-04 00:00:00.190 Thread-2b < 0, close socket and open another
+2023-02-04 00:00:19.998 Thread-3Incoming connection from /127.0.0.1:50623
+2023-02-04 00:00:19.998 Thread-3Ready to receive data
+2023-02-04 00:00:20.010 Thread-3Incoming: POST /postbody HTTP/1.1
+Content-Length: 15
+Host: localhost
+
+
+2023-02-04 00:00:20.010 Thread-3Incoming connection from /127.0.0.1:50623
+2023-02-04 00:00:20.011 Thread-3Ready to receive data
+2023-02-04 00:00:20.012 Thread-3Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-04 00:00:20.013 Thread-3Incoming connection from /127.0.0.1:50623
+2023-02-04 00:00:20.013 Thread-3Ready to receive data
+2023-02-04 00:00:20.015 Thread-3b < 0, close socket and open another
+2023-02-04 00:00:26.687 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-04 00:00:30.903 Thread-1Incoming connection from /127.0.0.1:50651
+2023-02-04 00:00:30.904 Thread-1Ready to receive data
+2023-02-04 00:00:30.913 Thread-1Incoming: POST /postbody HTTP/1.1
+Content-Length: 19
+Host: localhost
+
+
+2023-02-04 00:00:30.919 Thread-1Incoming connection from /127.0.0.1:50651
+2023-02-04 00:00:30.919 Thread-1Ready to receive data
+2023-02-04 00:00:30.921 Thread-1Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-04 00:00:30.922 Thread-1Incoming connection from /127.0.0.1:50651
+2023-02-04 00:00:30.922 Thread-1Ready to receive data
+2023-02-04 00:00:30.924 Thread-1b < 0, close socket and open another
+2023-02-04 00:02:01.689 Thread-2Incoming connection from /127.0.0.1:50874
+2023-02-04 00:02:01.689 Thread-2Ready to receive data
+2023-02-04 00:02:01.700 Thread-2Incoming: POST /postbody HTTP/1.1
+Content-Length: 10
+Host: localhost
+
+
+2023-02-04 00:02:01.701 Thread-2Incoming connection from /127.0.0.1:50874
+2023-02-04 00:02:01.701 Thread-2Ready to receive data
+2023-02-04 00:02:01.703 Thread-2Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-04 00:02:01.703 Thread-2Incoming connection from /127.0.0.1:50874
+2023-02-04 00:02:01.703 Thread-2Ready to receive data
+2023-02-04 00:02:01.705 Thread-2b < 0, close socket and open another
+2023-02-04 00:02:08.245 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-04 00:02:12.497 Thread-1Incoming connection from /127.0.0.1:50902
+2023-02-04 00:02:12.497 Thread-1Ready to receive data
+2023-02-04 00:02:12.510 Thread-1Incoming: POST /postbody HTTP/1.1
+Content-Length: 15
+Host: localhost
+
+
+2023-02-04 00:02:12.517 Thread-1Incoming connection from /127.0.0.1:50902
+2023-02-04 00:02:12.518 Thread-1Ready to receive data
+2023-02-04 00:02:12.521 Thread-1Incoming: GET /foo HTTP/1.1
+Content-Length: 0
+Host: localhost
+
+
+2023-02-04 00:02:12.521 Thread-1Incoming connection from /127.0.0.1:50902
+2023-02-04 00:02:12.522 Thread-1Ready to receive data
+2023-02-04 00:02:12.524 Thread-1b < 0, close socket and open another
+2023-02-04 00:16:14.723 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-04 00:16:16.340 Thread-1Incoming connection from /127.0.0.1:52951
+2023-02-04 00:16:16.340 Thread-1Ready to receive data
+2023-02-04 00:16:16.342 Thread-1Incoming: GET /file1.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:16:16.343 Thread-1Begin to send
+2023-02-04 00:16:16.348 Thread-1Incoming connection from /127.0.0.1:52951
+2023-02-04 00:16:16.348 Thread-1Ready to receive data
+2023-02-04 00:16:16.350 Thread-1b < 0, close socket and open another
+2023-02-04 00:16:16.351 Thread-2Incoming connection from /127.0.0.1:52952
+2023-02-04 00:16:16.351 Thread-2Ready to receive data
+2023-02-04 00:16:16.351 Thread-2Incoming: GET /thisFileShouldNotExist.txt HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:16:16.352 Thread-2ERROR: Error 404, file not found
+2023-02-04 00:16:16.354 Thread-2Incoming connection from /127.0.0.1:52952
+2023-02-04 00:16:16.354 Thread-2Ready to receive data
+2023-02-04 00:16:16.354 Thread-2b < 0, close socket and open another
+2023-02-04 00:16:16.355 Thread-3Incoming connection from /127.0.0.1:52953
+2023-02-04 00:16:16.356 Thread-3Ready to receive data
+2023-02-04 00:16:16.356 Thread-3Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:16:16.358 Thread-3Incoming connection from /127.0.0.1:52953
+2023-02-04 00:16:16.359 Thread-3Ready to receive data
+2023-02-04 00:16:16.359 Thread-3b < 0, close socket and open another
+2023-02-04 00:16:16.360 Thread-4Incoming connection from /127.0.0.1:52954
+2023-02-04 00:16:16.360 Thread-4Ready to receive data
+2023-02-04 00:16:16.369 Thread-4Incoming: POST /postbody HTTP/1.1
+Content-Length: 5
+Host: localhost
+
+
+2023-02-04 00:16:16.370 Thread-4Incoming connection from /127.0.0.1:52954
+2023-02-04 00:16:16.370 Thread-4Ready to receive data
+2023-02-04 00:16:16.371 Thread-4b < 0, close socket and open another
+2023-02-04 00:16:16.372 Thread-5Incoming connection from /127.0.0.1:52955
+2023-02-04 00:16:16.372 Thread-5Ready to receive data
+2023-02-04 00:16:16.373 Thread-5Incoming: PUT /puthdr HTTP/1.1
+X-Foo: UI8xOOdVk
+Host: localhost
+
+
+2023-02-04 00:16:16.373 Thread-5Incoming connection from /127.0.0.1:52955
+2023-02-04 00:16:16.373 Thread-5Ready to receive data
+2023-02-04 00:16:16.374 Thread-5b < 0, close socket and open another
+2023-02-04 00:16:16.374 Thread-6Incoming connection from /127.0.0.1:52956
+2023-02-04 00:16:16.374 Thread-6Ready to receive data
+2023-02-04 00:16:16.378 Thread-6Incoming: PUT /pathpar/9RbvW/123/p0GNz HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:16:16.379 Thread-6Incoming connection from /127.0.0.1:52956
+2023-02-04 00:16:16.379 Thread-6Ready to receive data
+2023-02-04 00:16:16.379 Thread-6b < 0, close socket and open another
+2023-02-04 00:16:16.380 Thread-7Incoming connection from /127.0.0.1:52957
+2023-02-04 00:16:16.380 Thread-7Ready to receive data
+2023-02-04 00:16:16.381 Thread-7Incoming: GET /error HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:16:16.381 Thread-7Incoming connection from /127.0.0.1:52957
+2023-02-04 00:16:16.381 Thread-7Ready to receive data
+2023-02-04 00:16:16.382 Thread-7b < 0, close socket and open another
+2023-02-04 00:16:16.383 Thread-8Incoming connection from /127.0.0.1:52958
+2023-02-04 00:16:16.383 Thread-8Ready to receive data
+2023-02-04 00:16:16.383 Thread-8Incoming: GET /write HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:16:16.383 Thread-8in write
+2023-02-04 00:16:16.384 Thread-8in write
+2023-02-04 00:16:16.385 Thread-9Incoming connection from /127.0.0.1:52959
+2023-02-04 00:16:16.385 Thread-9Ready to receive data
+2023-02-04 00:16:16.389 Thread-9Incoming: GET /qparam?par1=dKziN+X&par2=%22Srrx5%22 HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+
+2023-02-04 00:16:16.394 Thread-9Incoming connection from /127.0.0.1:52959
+2023-02-04 00:16:16.394 Thread-9Ready to receive data
+2023-02-04 00:16:16.394 Thread-9b < 0, close socket and open another
+2023-02-04 00:56:52.934 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-04 00:56:55.362 Thread-1Incoming connection from /127.0.0.1:58860
+2023-02-04 00:56:55.362 Thread-1Ready to receive data
+2023-02-04 00:56:55.364 Thread-1Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:56:55.367 Thread-1Incoming connection from /127.0.0.1:58860
+2023-02-04 00:56:55.367 Thread-1Ready to receive data
+2023-02-04 00:56:55.379 Thread-1b < 0, close socket and open another
+2023-02-04 00:58:44.335 Thread-2Incoming connection from /127.0.0.1:59122
+2023-02-04 00:58:44.335 Thread-2Ready to receive data
+2023-02-04 00:58:44.337 Thread-2Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-04 00:58:44.338 Thread-2Incoming connection from /127.0.0.1:59122
+2023-02-04 00:58:44.338 Thread-2Ready to receive data
+2023-02-04 00:58:44.356 Thread-2b < 0, close socket and open another
+2023-02-04 01:00:08.294 Thread-0the port number is 8080, and the name of directory is __test123
+2023-02-04 01:00:09.333 Thread-1Incoming connection from /127.0.0.1:59331
+2023-02-04 01:00:09.333 Thread-1Ready to receive data
+2023-02-04 01:00:09.334 Thread-1Incoming: GET /hello HTTP/1.1
+Host: localhost
+
+
+2023-02-04 01:00:09.338 Thread-1Incoming connection from /127.0.0.1:59331
+2023-02-04 01:00:09.338 Thread-1Ready to receive data
+2023-02-04 01:00:09.364 Thread-1b < 0, close socket and open another
